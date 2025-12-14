@@ -1,0 +1,4 @@
+import wandb
+run = wandb.init()
+artifact = run.use_artifact('sabari132005-manakula-vinayagar-institute-of-technology/risk-analysis-bert/Risk-Analysis-Bert:v0', type='model')
+artifact_dir = artifact.download()

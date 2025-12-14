@@ -1,0 +1,4888 @@
+Risk Level Encodings:
+High: 0
+Low: 1
+Medium: 2
+
+Risk Category Encodings:
+Accelerated Payment Obligation: 0
+Acceptance: 1
+Acceptance Deadline: 2
+Acceptance Period: 3
+Acceptance Process: 4
+Acceptance and Returns: 5
+Access Control: 6
+Access Restrictions: 7
+Access Rights: 8
+Access to Business Records: 9
+Access to Financial Records: 10
+Access to Information: 11
+Access to Records: 12
+Accountability Obligation: 13
+Accounting: 14
+Accounting & Compliance: 15
+Acquisition & Ownership: 16
+Acquisition & Ownership Change: 17
+Acquisition Clause: 18
+Acquisition Restriction: 19
+Additional Charges: 20
+Additional Compliance Requirements: 21
+Additional Fees: 22
+Additional Financial Burden: 23
+Additional Insurance Requirement: 24
+Additional Insured: 25
+Additional Insured Coverage: 26
+Additional Insured Requirement: 27
+Additional Termination Fees: 28
+Administrative Burden: 29
+Administrative Compliance: 30
+Advance Notice: 31
+Advance Notice Obligation: 32
+Advance Notice Requirement: 33
+Advertisement Control: 34
+Advertising: 35
+Advertising & Competition: 36
+Advertising & Endorsement Rights: 37
+Advertising & Endorsements: 38
+Advertising & Market Restriction: 39
+Advertising & Marketing Restriction: 40
+Advertising & Performance Obligations: 41
+Advertising & Promotion: 42
+Advertising & Promotion Restrictions: 43
+Advertising Allocation Restriction: 44
+Advertising Commitment: 45
+Advertising Control: 46
+Advertising Duration Restriction: 47
+Advertising Fee: 48
+Advertising Flexibility: 49
+Advertising Liability: 50
+Advertising Limitations: 51
+Advertising Performance: 52
+Advertising Placement: 53
+Advertising Purchase Obligation: 54
+Advertising Removal: 55
+Advertising Restriction: 56
+Advertising Restrictions: 57
+Advertising Rights: 58
+Advertising Time Limitation: 59
+Advertising Time Requirement: 60
+Advertising, Event Publications: 61
+Advertising, Event Sponsorship: 62
+Advisor Affiliation: 63
+Affiliate Assignment: 64
+Affiliate Assignment Flexibility: 65
+Affiliate Competition: 66
+Affiliate Compliance: 67
+Affiliate Compliance Requirement: 68
+Affiliate Exception: 69
+Affiliate Exemption: 70
+Affiliate License Continuation: 71
+Affiliate Obligations: 72
+Affiliate Program: 73
+Affiliate Program Compliance: 74
+Affiliate Responsibilities: 75
+Affiliate Transfer: 76
+Affiliate-Specific Licensing: 77
+Agency Appointment: 78
+Aggregate Liability Cap: 79
+Aggregation of Claims: 80
+Agreement: 81
+Agreement Compliance: 82
+Agreement Duration: 83
+Agreement Duration Specification: 84
+Agreement Expiry Condition: 85
+Agreement Extension: 86
+Agreement Modification: 87
+Agreement Modifications: 88
+Agreement Term: 89
+Agreement Term & Renewal: 90
+Agreement Term and Duration: 91
+Agreement Termination: 92
+Agreement Validity: 93
+All-Encompassing IP Claim: 94
+Alternate Financing Rights: 95
+Alternative Payment Requirement: 96
+Alternative Product Royalty: 97
+Ambiguity: 98
+Ambiguity & Contractual Clarity: 99
+Ambiguity in Audit Access: 100
+Ambiguity in Compensation Terms: 101
+Ambiguity in Compliance: 102
+Ambiguity in Contract Duration: 103
+Ambiguity in Control Definition: 104
+Ambiguity in Coverage: 105
+Ambiguity in Default Conditions: 106
+Ambiguity in Definition: 107
+Ambiguity in Dispute Resolution: 108
+Ambiguity in Enforcement: 109
+Ambiguity in Financial Terms: 110
+Ambiguity in IP Assignment: 111
+Ambiguity in License Terms: 112
+Ambiguity in Party Definition: 113
+Ambiguity in Process: 114
+Ambiguity in Terms: 115
+Ambiguity in licensing terms: 116
+Ambiguous Compliance: 117
+Ambiguous Consent Criteria: 118
+Ambiguous Financial Definition: 119
+Ambiguous Financial Term: 120
+Ambiguous Liability Scope: 121
+Ambiguous Termination: 122
+Ambiguous Termination Condition: 123
+Amendment & Approval: 124
+Amendment Obligations: 125
+Amendment Requirement: 126
+Amendment Restrictions: 127
+Annual Audit: 128
+Anti-Collusion Clause: 129
+Anti-Competitive: 130
+Anti-Competitive & Restrictive Practices: 131
+Anti-Competitive Behavior: 132
+Anti-Competitive Practices: 133
+Anti-Competitive Restriction: 134
+Anti-Competitive Restrictions: 135
+Anti-Corruption Compliance: 136
+Anticipated Legal Action: 137
+Antitrust: 138
+Appearance Duration: 139
+Appearance Requirements: 140
+Application: 141
+Appointment Obligation: 142
+Appointment of Agent: 143
+Approval Dependencies: 144
+Approval Dependency: 145
+Approval Obligation: 146
+Approval Requirement: 147
+Approval Requirements: 148
+Approval Time Constraint: 149
+Approval and Control Over Licensing: 150
+Approval and Governance: 151
+Arbitrary Consent Denial: 152
+Arbitration: 153
+Arbitration & Dispute Resolution: 154
+Artwork and Production: 155
+Asset & Equipment: 156
+Asset Condition: 157
+Asset Control: 158
+Asset Destruction: 159
+Asset Disposal: 160
+Asset Disposal & Compliance: 161
+Asset Disposition: 162
+Asset Management: 163
+Asset Ownership: 164
+Asset Ownership & Transfers: 165
+Asset Ownership Restriction: 166
+Asset Purchase: 167
+Asset Purchase Rights: 168
+Asset Return Requirement: 169
+Asset Sale Restrictions: 170
+Asset Segmentation: 171
+Asset Transfer: 172
+Asset Transfer Restriction: 173
+Asset Transfer Rights: 174
+Assignee Financial Capacity: 175
+Assignee Production Capacity: 176
+Assignee Qualifications: 177
+Assignment: 178
+Assignment & Bankruptcy: 179
+Assignment & Change of Control: 180
+Assignment & Delegation: 181
+Assignment & Delegation Restriction: 182
+Assignment & Delegation Restrictions: 183
+Assignment & Termination: 184
+Assignment & Transfer: 185
+Assignment & Transfer Restriction: 186
+Assignment & Transfer Restrictions: 187
+Assignment & Transfer Rights: 188
+Assignment & Transferability: 189
+Assignment Approval Process: 190
+Assignment Assistance: 191
+Assignment Clause: 192
+Assignment Compliance: 193
+Assignment Condition: 194
+Assignment Conditions: 195
+Assignment Exception: 196
+Assignment Exceptions: 197
+Assignment Exemptions: 198
+Assignment Fairness: 199
+Assignment Flexibility: 200
+Assignment Limitations: 201
+Assignment Notice: 202
+Assignment Notice Requirement: 203
+Assignment Obligation: 204
+Assignment Restriction: 205
+Assignment Restrictions: 206
+Assignment Rights: 207
+Assignment Without Consent: 208
+Assignment and Change of Control: 209
+Assignment and Delegation Restriction: 210
+Assignment and Succession: 211
+Assignment and Transfer: 212
+Assignment and Transfer Exceptions: 213
+Assignment and Transfer Restriction: 214
+Assignment and Transfer Restrictions: 215
+Assignment and Transferability: 216
+Assignment in Case of Merger: 217
+Assignment of Obligations: 218
+Assignment of Rights: 219
+Assignment to Affiliates: 220
+Assignment/Transfer: 221
+Assistance Obligation: 222
+Assistance Requirement: 223
+Asymmetrical Termination Rights: 224
+At-Will Termination by Company: 225
+Attribution: 226
+Audit: 227
+Audit & Compliance: 228
+Audit & Compliance Obligation: 229
+Audit & Inspection: 230
+Audit & Record Retention: 231
+Audit & Record-Keeping: 232
+Audit Access: 233
+Audit Assistance: 234
+Audit Compliance: 235
+Audit Compliance Obligation: 236
+Audit Conditions: 237
+Audit Cost Allocation: 238
+Audit Cost Reimbursement: 239
+Audit Costs: 240
+Audit Frequency: 241
+Audit Frequency Limitation: 242
+Audit Frequency Restriction: 243
+Audit Frequency Restrictions: 244
+Audit Frequency and Scope: 245
+Audit Limitation: 246
+Audit Limitations: 247
+Audit Obligation: 248
+Audit Oversight & Compliance: 249
+Audit Procedure: 250
+Audit Process: 251
+Audit Process & Notice Requirement: 252
+Audit Process Restriction: 253
+Audit Reporting: 254
+Audit Requirement: 255
+Audit Responsibility: 256
+Audit Rights: 257
+Audit Rights and Frequency: 258
+Audit Scope: 259
+Audit Scope Limitation: 260
+Audit Timeline: 261
+Audit Timing: 262
+Audit Timing and Conditions: 263
+Audit Transparency: 264
+Audit Type: 265
+Audit Window: 266
+Audit and Compliance: 267
+Audit and Compliance Obligation: 268
+Audit and Compliance Rights: 269
+Audit and Inspection: 270
+Audit and Inspection Rights: 271
+Audit, Compliance: 272
+Audit, Monitoring: 273
+Audit-Based Financial Obligations: 274
+Auditing: 275
+Audits: 276
+Authentication: 277
+Authority & Representation: 278
+Authority Restriction: 279
+Auto Insurance: 280
+Auto Liability: 281
+Auto-Renewal: 282
+Auto-Renewal & Termination: 283
+Auto-Renewal Clause: 284
+Auto-Renewal Obligation: 285
+Auto-Renewal Obligations: 286
+Automatic Assignment: 287
+Automatic Assignment of Copyright: 288
+Automatic Contract Extension: 289
+Automatic Extension: 290
+Automatic Non-Renewal: 291
+Automatic Rejection: 292
+Automatic Renewal: 293
+Automatic Renewal & Financial Obligation: 294
+Automatic Termination: 295
+Backup & Data Storage: 296
+Balanced Liability Protection: 297
+Bandwidth Allocation: 298
+Bankruptcy: 299
+Bankruptcy & Business Continuitys: 300
+Bankruptcy & Creditors: 301
+Bankruptcy & Insolvency: 302
+Bankruptcy Contingency: 303
+Bankruptcy Proceedings: 304
+Bidding: 305
+Binding Obligation: 306
+Binding Order Commitment: 307
+Board Discretion: 308
+Board Influence & Control: 309
+Bond Payment Requirement: 310
+Brand: 311
+Brand Association Restriction: 312
+Brand Compliance: 313
+Brand Confusion: 314
+Brand Control: 315
+Brand Control & Compliance: 316
+Brand Dilution: 317
+Brand Dilution & Compliance: 318
+Brand Exclusivity: 319
+Brand Exclusivity and Commitments: 320
+Brand Exploitation: 321
+Brand Identity: 322
+Brand Integration: 323
+Brand Integrity: 324
+Brand Misuse: 325
+Brand Modification Restriction: 326
+Brand Ownership: 327
+Brand Protection: 328
+Brand Protection & Market Control: 329
+Brand Protection Enforcement: 330
+Brand Protection Obligation: 331
+Brand Protection Scope: 332
+Brand Reputation: 333
+Brand Usage: 334
+Brand Usage Restrictions: 335
+Brand Use: 336
+Brand Visibility: 337
+Branding: 338
+Branding & Compliance: 339
+Branding & Licensing: 340
+Branding & Marketing: 341
+Branding & Modification: 342
+Branding & Representation: 343
+Branding & Reputation: 344
+Branding & Trademark: 345
+Branding & Trademark Rights: 346
+Branding & Trademark Usage: 347
+Branding & Trademark Use: 348
+Branding Compliance: 349
+Branding Exclusivity: 350
+Branding License: 351
+Branding Obligation: 352
+Branding Quantity Restriction: 353
+Branding Restriction: 354
+Branding Rights: 355
+Branding Transition Period: 356
+Branding and Control: 357
+Branding and Partnership: 358
+Branding and Trademark: 359
+Branding on Employee Uniforms: 360
+Breach: 361
+Breach & Arbitration: 362
+Breach & Cure Period: 363
+Breach & Remedies: 364
+Breach & Termination: 365
+Breach Consequence: 366
+Breach Consequences: 367
+Breach Investigation: 368
+Breach Liability: 369
+Breach Penalty: 370
+Breach Remediation: 371
+Breach Responsibility: 372
+Breach of Agreement: 373
+Breach of Competitive Restrictions: 374
+Breach of Confidentiality: 375
+Breach of Contract: 376
+Breach of Warranty: 377
+Breach of Warrantys: 378
+Breach-Based Termination: 379
+Broad Agreement Restrictions: 380
+Broad Application: 381
+Broad Commercialization Rights: 382
+Broad Compliance Requirement: 383
+Broad Damage Exclusion: 384
+Broad Data Access Rights: 385
+Broad Disclaimer Scope: 386
+Broad Exclusion of Liability: 387
+Broad Financial Liability: 388
+Broad Force Majeure Definition: 389
+Broad IP Assignment: 390
+Broad IP Licensing: 391
+Broad IP Rights: 392
+Broad IP Scope: 393
+Broad Indemnification: 394
+Broad Indemnification Clause: 395
+Broad Indemnification Obligation: 396
+Broad Indemnification Scope: 397
+Broad Indemnity Waiver: 398
+Broad Information Disclosure: 399
+Broad Interpretation: 400
+Broad Legal Coverage: 401
+Broad Liability Disclaimer: 402
+Broad Liability Exemption: 403
+Broad Liability Limitation: 404
+Broad Liability Waiver: 405
+Broad License Grant: 406
+Broad License Scope: 407
+Broad Licensing: 408
+Broad Licensing Scope: 409
+Broad Licensing Terms: 410
+Broad Limitation: 411
+Broad Non-Solicitation Scope: 412
+Broad Post-Termination Obligations: 413
+Broad Restriction: 414
+Broad Restrictive Covenant: 415
+Broad Scope Clause: 416
+Broad Scope Restriction: 417
+Broad Scope of IP Assignment: 418
+Broad Scope of IP Definition: 419
+Broad Scope of Indemnification: 420
+Broad Scope of Non-Compete: 421
+Broad Scope of Required Records: 422
+Broad Sublicensing Rights: 423
+Broad Technology Rights: 424
+Broad Usage Rights: 425
+Broad Warranty Disclaimer: 426
+Broadcast & Streaming Restrictions: 427
+Broadcast Restriction: 428
+Broadcasting & Distribution: 429
+Broadcasting Limitation: 430
+Broadcasting Obligation: 431
+Broadcasting Rights: 432
+Broker Compensation: 433
+Budget Obligation: 434
+Bulk Purchase Uncertainty: 435
+Bundling Restriction: 436
+Business: 437
+Business Autonomy: 438
+Business Autonomy of NCM: 439
+Business Commitment: 440
+Business Conduct: 441
+Business Confidentiality: 442
+Business Continuity: 443
+Business Continuity & Mergers: 444
+Business Continuity & Operations: 445
+Business Continuity & Ownership Change: 446
+Business Continuity & Ownership Transfer: 447
+Business Continuity Restriction: 448
+Business Contributions: 449
+Business Control: 450
+Business Decision: 451
+Business Description: 452
+Business Development: 453
+Business Disruption: 454
+Business Engagement Restriction: 455
+Business Expansion: 456
+Business Expansion Constraint: 457
+Business Flexibility: 458
+Business Flexibility Restriction: 459
+Business Growth: 460
+Business Impact: 461
+Business Innovation: 462
+Business Inspection Rights: 463
+Business Interference: 464
+Business Interruption: 465
+Business Interruption Control: 466
+Business Liability: 467
+Business Limitation: 468
+Business Limitation on Network Affiliate: 469
+Business Loss: 470
+Business Mechanism: 471
+Business Negotiation: 472
+Business Obligation: 473
+Business Operation Restriction: 474
+Business Operations: 475
+Business Opportunity Rights: 476
+Business Oversight: 477
+Business Referral Interference: 478
+Business Relationship: 479
+Business Representation Restriction: 480
+Business Restriction: 481
+Business Restrictions: 482
+Business Sale & Asset Transfer: 483
+Business Sale Assignment: 484
+Business Scope: 485
+Business Standard Compliance: 486
+Business Strategy: 487
+Business Succession: 488
+Business Support: 489
+Business Transfer: 490
+Business Transfer Flexibility: 491
+Business Transition: 492
+Business Uncertainty: 493
+Buyback: 494
+Buyback Obligation: 495
+Buyer: 496
+Buyer Liability: 497
+Buyer Liability Shift: 498
+Cap on Direct Damages: 499
+Cap on Liability: 500
+Capacity & Allocation: 501
+Capacity Allocation: 502
+Capacity Flexibility: 503
+Capacity Limitation: 504
+Capacity Limitations: 505
+Capacity Restriction: 506
+Capital Adequacy: 507
+Capital Commitment: 508
+Capital Obligation: 509
+Capital Requirements: 510
+Capital Restructuring: 511
+Capped Damage Liability: 512
+Carve-Out for Mergers & Sales: 513
+Carve-out for Indemnification: 514
+Case-Specific Legal: 515
+Cash Flow: 516
+Certification Requirement: 517
+Change Management: 518
+Change in Control: 519
+Change in Control Notification: 520
+Change in Ownership: 521
+Change in Ownership Control: 522
+Change of Control: 523
+Change of Control & Severance: 524
+Change of Control & Termination Rights: 525
+Change of Control Exception: 526
+Change of Control Notification Obligation: 527
+Change of Control Restriction: 528
+Change of Control Restrictions: 529
+Change of Control Termination: 530
+Change of Control and Termination: 531
+Change of Ownership: 532
+Choice of Law: 533
+Choice of Law Limitation: 534
+Circumvention of Responsibilities: 535
+Claim Adjustment: 536
+Claim Aggregation: 537
+Claim Definition: 538
+Claim Limitation: 539
+Claim Notification & Defense: 540
+Claim Process Ambiguity: 541
+Claim Processing: 542
+Claims & Dispute Resolution: 543
+Claims Process: 544
+Clarity of Payment Terms: 545
+Classification: 546
+Clear Start Date: 547
+Client & Supplier Solicitation Restriction: 548
+Client Dependency: 549
+Client Obligations: 550
+Client Poaching: 551
+Client Retention: 552
+Client Solicitation Restriction: 553
+Clinical Study Exemption: 554
+Clinical Study Restrictions: 555
+Clinical Trial: 556
+Clinical Trial Responsibility: 557
+Closing Timeline: 558
+Co-Exclusive Licensing: 559
+Co-Ownership Complexity: 560
+Co-Ownership of IP: 561
+Collaboration: 562
+Collaboration Obligation: 563
+Collaboration Restrictions: 564
+Collateral Assignment: 565
+Collateral and Payment: 566
+Collection: 567
+Commercial: 568
+Commercial Exploitations: 569
+Commercial Obligation: 570
+Commercial Restriction: 571
+Commercial Restrictions: 572
+Commercial Rights: 573
+Commercial Terms: 574
+Commercial Terms Flexibility: 575
+Commercial Terms and: 576
+Commercial Use: 577
+Commercial Viability: 578
+Commercialization: 579
+Commercialization Compliance: 580
+Commercialization Control: 581
+Commercialization Obligation: 582
+Commercialization Responsibilities: 583
+Commercialization Restriction: 584
+Commercialization Restrictions: 585
+Commercialization Rights: 586
+Commercialization Support: 587
+Commission Agreement: 588
+Commission Definition: 589
+Commission Payment: 590
+Commission Payment Process: 591
+Commission Structure: 592
+Commission Variability: 593
+Commission-Based Obligation: 594
+Commitment Obligation: 595
+Communication: 596
+Communication & Compliance: 597
+Communication Obligation: 598
+Communication Obligations: 599
+Communication Requirement: 600
+Communication Requirements: 601
+Communication Restriction: 602
+Company Indemnification: 603
+Compensation: 604
+Compensation & Damages: 605
+Compensation & Marketing: 606
+Compensation & Royalties: 607
+Compensation Adjustment: 608
+Compensation Agreement: 609
+Compensation Calculation: 610
+Compensation Clause: 611
+Compensation Exclusion: 612
+Compensation Liability: 613
+Compensation Limitation: 614
+Compensation Obligation: 615
+Compensation Structure: 616
+Compensation Terms: 617
+Compensation Uncertainty: 618
+Competition: 619
+Competition & Market Exclusivity: 620
+Competition & Market Restriction: 621
+Competition Laws: 622
+Competition Restriction: 623
+Competition Restrictions: 624
+Competition and Assignment: 625
+Competitions: 626
+Competitive: 627
+Competitive Advantage: 628
+Competitive Advertising: 629
+Competitive Benchmarking: 630
+Competitive Blockage: 631
+Competitive Business: 632
+Competitive Business Definition: 633
+Competitive Business Restriction: 634
+Competitive Conduct Restriction: 635
+Competitive Conflict: 636
+Competitive Definition: 637
+Competitive Disadvantage: 638
+Competitive Endorsement: 639
+Competitive Engagement: 640
+Competitive Engagement Termination: 641
+Competitive Exclusivity: 642
+Competitive Exploitation: 643
+Competitive Fairness: 644
+Competitive Hiring: 645
+Competitive Interference: 646
+Competitive Licensing: 647
+Competitive Limitation: 648
+Competitive Market Restriction: 649
+Competitive Market Restrictions: 650
+Competitive Misuse: 651
+Competitive Negotiation: 652
+Competitive Positioning: 653
+Competitive Pricing: 654
+Competitive Product Restriction: 655
+Competitive Protection: 656
+Competitive Restriction: 657
+Competitive Restriction Exception: 658
+Competitive Restrictions: 659
+Competitive Restrictions & Exclusivity: 660
+Competitive Restrictions & Right of First Refusal: 661
+Competitive Sales: 662
+Competitive Transaction Definition: 663
+Competitor Assignment Block: 664
+Competitor Control: 665
+Competitor Designation: 666
+Competitor Limitations: 667
+Competitor List Updates: 668
+Complete Ownership Clause: 669
+Complete Ownership Transfer: 670
+Complete Transfer of Rights: 671
+Complete Waiver of Liability: 672
+Complex Pricing Mechanism: 673
+Complexity & Compliance: 674
+Compliance: 675
+Compliance & Audit: 676
+Compliance & Audit Rights: 677
+Compliance & Auditing: 678
+Compliance & Audits: 679
+Compliance & Branding: 680
+Compliance & Confidentiality: 681
+Compliance & Data Security: 682
+Compliance & Documentation: 683
+Compliance & Documentation Obligation: 684
+Compliance & Effort Obligation: 685
+Compliance & Exemptions: 686
+Compliance & Governance: 687
+Compliance & Insurance: 688
+Compliance & Legal: 689
+Compliance & Legal Obligations: 690
+Compliance & Legal Restrictions: 691
+Compliance & Liability: 692
+Compliance & Management: 693
+Compliance & Market Review: 694
+Compliance & Monitoring: 695
+Compliance & Notification: 696
+Compliance & Obligations: 697
+Compliance & Operational: 698
+Compliance & Oversight: 699
+Compliance & Payment Processing: 700
+Compliance & Performance: 701
+Compliance & Quality Control: 702
+Compliance & Rating Requirements: 703
+Compliance & Record-Keeping: 704
+Compliance & Recordkeeping: 705
+Compliance & Regulatory: 706
+Compliance & Reporting: 707
+Compliance & Revocation: 708
+Compliance & Validity: 709
+Compliance Assurance: 710
+Compliance Breach: 711
+Compliance Burden: 712
+Compliance Certification: 713
+Compliance Cooperation: 714
+Compliance Enforcement: 715
+Compliance Monitoring: 716
+Compliance Monitoring Ris: 717
+Compliance Obligation: 718
+Compliance Obligations: 719
+Compliance Requirement: 720
+Compliance Requirements: 721
+Compliance Review: 722
+Compliance Verification: 723
+Compliance Violation: 724
+Compliance and Audit: 725
+Compliance and Audit Obligation: 726
+Compliance and Audit Rights: 727
+Compliance and Data: 728
+Compliance and Financial: 729
+Compliance and Inspection: 730
+Compliance and Notification: 731
+Compliance and Procedural: 732
+Compliance and Record Access: 733
+Compliance and Record-Keeping: 734
+Compliance and Regulatory: 735
+Compliance and Reporting: 736
+Compliance and Reputation: 737
+Compliance with Broadcasting Standards: 738
+Compliance with Data Protection Laws: 739
+Compliance with Law: 740
+Compliance, Access: 741
+Compliance, Monitoring: 742
+Compliance?: 743
+Compound Classification: 744
+Compound Selection Rights: 745
+Comprehensive IP Control: 746
+Comprehensive IP Transfer: 747
+Comprehensive Rights Grant: 748
+Comprehensive Waiver: 749
+Comprehensive Waiver of Responsibility: 750
+Conditional Agreement: 751
+Conditional Assignment Rights: 752
+Conditional Call Option: 753
+Conditional Compliance: 754
+Conditional Cost Coverage: 755
+Conditional Escrow Release: 756
+Conditional IP Transfer: 757
+Conditional Indemnification: 758
+Conditional License Continuation: 759
+Conditional License Grant: 760
+Conditional Market Entry: 761
+Conditional Obligation: 762
+Conditional Revenue Obligation: 763
+Conditional Sublicensing: 764
+Conditional Sublicensing Rights: 765
+Conditional Termination Rights: 766
+Conditional Transfer: 767
+Conditional Use: 768
+Confidential Information: 769
+Confidential Information & Ownership: 770
+Confidential Information Retention: 771
+Confidential Information Usage: 772
+Confidential Information Use: 773
+Confidentiality: 774
+Confidentiality & Assignment: 775
+Confidentiality & Audit Access: 776
+Confidentiality & Competitive: 777
+Confidentiality & Compliance: 778
+Confidentiality & Data Protection: 779
+Confidentiality & Data Security: 780
+Confidentiality & Disclosure: 781
+Confidentiality & Documentation: 782
+Confidentiality & IP Protection: 783
+Confidentiality & Indemnification: 784
+Confidentiality & Liability: 785
+Confidentiality & Negligence: 786
+Confidentiality & Non-Compete: 787
+Confidentiality & Non-Disparagement: 788
+Confidentiality & Public Disclosure: 789
+Confidentiality & Security: 790
+Confidentiality & Use Restriction: 791
+Confidentiality Breach: 792
+Confidentiality Compliance: 793
+Confidentiality Concerns: 794
+Confidentiality Enforcement: 795
+Confidentiality Exceptions: 796
+Confidentiality Obligation: 797
+Confidentiality Obligations: 798
+Confidentiality Protection: 799
+Confidentiality Violation: 800
+Confidentiality and Compliance: 801
+Confidentiality and Data Access: 802
+Confidentiality and Indemnification: 803
+Confidentiality and Sublicensing: 804
+Confidentiality of Audit Findings: 805
+Confidentiality of Inspection Data: 806
+Configuration: 807
+Conflict Resolution: 808
+Conflict of Interest: 809
+Conflict of Interest Management: 810
+Conflict of Interest Restriction: 811
+Conflict of Interest in Legal Defense: 812
+Conflict of Law Exclusion: 813
+Conflict of Laws: 814
+Conflicts of Interest: 815
+Consent Denial: 816
+Consent Dependence: 817
+Consent Obligation: 818
+Consent Obligations: 819
+Consent Requirement: 820
+Consent Restriction: 821
+Consequential Damage Exclusion: 822
+Consequential Damage Waiver: 823
+Consequential Damages: 824
+Consequential Damages Disclaimer: 825
+Consequential Damages Exclusion: 826
+Consequential Damages Waiver: 827
+Construction: 828
+Construction Compliance: 829
+Construction Quality: 830
+Consultation Requirement: 831
+Consumer Lawsuit: 832
+Consumer Protecti: 833
+Consumer Protection: 834
+Consumer Protection Compliance: 835
+Consumer Protection Concerns: 836
+Consumer Protection and Liability: 837
+Consumer Rights: 838
+Consumer Rights Limitation: 839
+Consumer Safety: 840
+Content: 841
+Content Accuracy: 842
+Content Availability: 843
+Content Compliance: 844
+Content Control: 845
+Content Distribution: 846
+Content Distribution Restrictions: 847
+Content Distribution Rights: 848
+Content Exploitation: 849
+Content Liability: 850
+Content Licensing: 851
+Content Modification: 852
+Content Modification Restriction: 853
+Content Modification Restrictions: 854
+Content Modification Rights: 855
+Content Obligation: 856
+Content Ownership: 857
+Content Ownership Transfer: 858
+Content Provision: 859
+Content Responsibility: 860
+Content Restriction: 861
+Content Retention: 862
+Content Scope Limitation: 863
+Content Sharing: 864
+Content Substitution Rights: 865
+Content Usage: 866
+Content Usage Restriction: 867
+Content Usage Rights: 868
+Contingency: 869
+Contingency Planning: 870
+Contingency-Based Compensation: 871
+Contingent Compensation Uncertainty: 872
+Contingent Payment Obligation: 873
+Contingent Stock Vesting: 874
+Continuing Obligations: 875
+Continuity: 876
+Continuity & Enforcement: 877
+Continuity & Supply: 878
+Continuity Obligation: 879
+Continuity of Service: 880
+Continuous Access to Business Records: 881
+Continuous Payment Obligation: 882
+Contract Ambiguity: 883
+Contract Amendments: 884
+Contract Assignability: 885
+Contract Assignment: 886
+Contract Assignment Constraints: 887
+Contract Assignment Restriction: 888
+Contract Assignment Restrictions: 889
+Contract Binding: 890
+Contract Breach: 891
+Contract Breach Liability: 892
+Contract Certainty: 893
+Contract Clarity: 894
+Contract Commencement: 895
+Contract Completeness: 896
+Contract Compliance: 897
+Contract Continuation: 898
+Contract Continuity: 899
+Contract Date: 900
+Contract Definition: 901
+Contract Definitions: 902
+Contract Dependency: 903
+Contract Duration: 904
+Contract Duration & Renewal: 905
+Contract Duration & Survivability: 906
+Contract Duration & Termination: 907
+Contract Duration Clarity: 908
+Contract Duration Requirement: 909
+Contract Duration Uncertainty: 910
+Contract Duration and Renewal: 911
+Contract Duration and Timeline Clarity: 912
+Contract Enforceability: 913
+Contract Enforcement: 914
+Contract Enforcement Ambiguity: 915
+Contract Exceptions: 916
+Contract Execution: 917
+Contract Execution Condition: 918
+Contract Expiration: 919
+Contract Expiry: 920
+Contract Extension: 921
+Contract Extension Flexibility: 922
+Contract Extension Uncertainty: 923
+Contract Finality: 924
+Contract Flexibility: 925
+Contract Formation: 926
+Contract Integrity: 927
+Contract Interpretation: 928
+Contract Limitation: 929
+Contract Lock-In: 930
+Contract Modification: 931
+Contract Modification Flexibility: 932
+Contract Modification Impact: 933
+Contract Negotiation: 934
+Contract Obligation: 935
+Contract Performance: 936
+Contract Performance & Compliance: 937
+Contract Permanence: 938
+Contract Remedies: 939
+Contract Renegotiation: 940
+Contract Renewal: 941
+Contract Renewal & Continuity: 942
+Contract Renewal & Termination: 943
+Contract Renewal Process: 944
+Contract Restriction: 945
+Contract Scope: 946
+Contract Scope & Integration: 947
+Contract Specification: 948
+Contract Stability: 949
+Contract Start Date: 950
+Contract Supersession: 951
+Contract Supremacy: 952
+Contract Survival: 953
+Contract Term: 954
+Contract Term Adjustment: 955
+Contract Term Definition: 956
+Contract Term Extension: 957
+Contract Termination: 958
+Contract Termination & Confidentiality: 959
+Contract Termination & Continuity: 960
+Contract Termination Compliance: 961
+Contract Termination Conditions: 962
+Contract Termination Impact: 963
+Contract Termination Obligations: 964
+Contract Timeline: 965
+Contract Transfer: 966
+Contract Transfer Fairness: 967
+Contract Transfer Restriction: 968
+Contract Transfer Restrictions: 969
+Contract Transferability: 970
+Contract Transition: 971
+Contract Uncertainty: 972
+Contract Validity: 973
+Contract Validity Date: 974
+Contract Validity Enforcement: 975
+Contract Violation: 976
+Contractor Indemnification: 977
+Contractor Relationship: 978
+Contractor's Confidential Information: 979
+Contractor's Pre-Existing IP: 980
+Contractual: 981
+Contractual & Compliance: 982
+Contractual Adjustment: 983
+Contractual Agreement: 984
+Contractual Ambiguity: 985
+Contractual Approval: 986
+Contractual Authority: 987
+Contractual Breach: 988
+Contractual Breach Liability: 989
+Contractual Broadcasting Restrictions: 990
+Contractual Carve-Outs: 991
+Contractual Changes: 992
+Contractual Clarity: 993
+Contractual Commitment: 994
+Contractual Communication Restriction: 995
+Contractual Completeness: 996
+Contractual Complexity: 997
+Contractual Complexity & Undefined Liabilities: 998
+Contractual Compliance: 999
+Contractual Condition: 1000
+Contractual Conditions: 1001
+Contractual Consent: 1002
+Contractual Consistency: 1003
+Contractual Contingency: 1004
+Contractual Continuity: 1005
+Contractual Control: 1006
+Contractual Control Limitation: 1007
+Contractual Deadline: 1008
+Contractual Definition: 1009
+Contractual Dependency: 1010
+Contractual Discretion: 1011
+Contractual Dispute: 1012
+Contractual Disputes: 1013
+Contractual Enforcement: 1014
+Contractual Exception: 1015
+Contractual Exception Ris: 1016
+Contractual Exceptions: 1017
+Contractual Exclusion: 1018
+Contractual Exclusivity: 1019
+Contractual Exit: 1020
+Contractual Exits: 1021
+Contractual Fairness: 1022
+Contractual Finality & Liability: 1023
+Contractual Financial: 1024
+Contractual Flexibility: 1025
+Contractual Gaps: 1026
+Contractual Hierarchy: 1027
+Contractual Imbalance: 1028
+Contractual Inflexibility: 1029
+Contractual Integrity: 1030
+Contractual Interference: 1031
+Contractual Interpretation: 1032
+Contractual Liability: 1033
+Contractual Limitation: 1034
+Contractual Limitations: 1035
+Contractual Lock-In: 1036
+Contractual Nature: 1037
+Contractual Negotiation: 1038
+Contractual Notice Requirement: 1039
+Contractual Obliga: 1040
+Contractual Obligation: 1041
+Contractual Obligations: 1042
+Contractual Obligations & Inventory Management: 1043
+Contractual Party Definition: 1044
+Contractual Payment Terms: 1045
+Contractual Performance Obligation: 1046
+Contractual Preferences: 1047
+Contractual Purchase Rights: 1048
+Contractual Reference: 1049
+Contractual Reliance: 1050
+Contractual Renewal: 1051
+Contractual Requirements: 1052
+Contractual Restriction: 1053
+Contractual Restrictions: 1054
+Contractual Rights: 1055
+Contractual Rights Expiry: 1056
+Contractual Rigidity: 1057
+Contractual Rigidness: 1058
+Contractual Sales Obligation: 1059
+Contractual Survival: 1060
+Contractual Termination: 1061
+Contractual Timeline & Execution: 1062
+Contractual Timeline Ambiguity: 1063
+Contractual Timing: 1064
+Contractual Uncertainty: 1065
+Contractual?: 1066
+Contribution Calculation: 1067
+Contribution Obligation: 1068
+Control: 1069
+Control & Decision Rights: 1070
+Control & Ownership Changes: 1071
+Control & Usage: 1072
+Control Change: 1073
+Control Change Exemption: 1074
+Control Over Defense: 1075
+Control Over Legal Defense: 1076
+Control Over Legal Proceedings: 1077
+Control Over Legal Representation: 1078
+Control Over Litigation: 1079
+Control Restriction: 1080
+Control Retention: 1081
+Control Transfer: 1082
+Control and Consent: 1083
+Control of Legal Defense: 1084
+Controlled Entity Limitation: 1085
+Controlled Frequency: 1086
+Controlled Sublicensing: 1087
+Controlled Transfer: 1088
+Cooperation: 1089
+Cooperation Obligation: 1090
+Cooperation Obligations: 1091
+Cooperation Requirement: 1092
+Cooperation Requirements: 1093
+Copyright: 1094
+Copyright Assignment: 1095
+Copyright Infringement Prevention: 1096
+Copyright Ownership: 1097
+Copyright Ownership & Control: 1098
+Copyright Protection: 1099
+Copyright Retention: 1100
+Copyright Transfer: 1101
+Corporate Control: 1102
+Corporate Governance: 1103
+Corporate Restructuring: 1104
+Corporate Restructuring & Transferability: 1105
+Corporate Restructuring Exemption: 1106
+Corporate Restructuring Impact: 1107
+Corporate Structure: 1108
+Corporate Structure Dependency: 1109
+Corporate Succession: 1110
+Corporate Transactions: 1111
+Cost & Compliance: 1112
+Cost Adjustment: 1113
+Cost Allocation: 1114
+Cost Allocation Clarity: 1115
+Cost Burden: 1116
+Cost Burden on Indemnifying Party: 1117
+Cost Control: 1118
+Cost Determination: 1119
+Cost Escalation: 1120
+Cost Exclusion: 1121
+Cost Fluctuation: 1122
+Cost Liability: 1123
+Cost Management: 1124
+Cost Obligation: 1125
+Cost Recovery: 1126
+Cost Responsibility: 1127
+Cost Volatility: 1128
+Cost and Compliance: 1129
+Cost and Conditions: 1130
+Cost of Audits: 1131
+Cost-Sharing: 1132
+Cost-Shifting: 1133
+Costly Legal Defenses: 1134
+Costly Legal Obligation: 1135
+Costly Termination: 1136
+Counter-Indemnification: 1137
+Counterparty: 1138
+Coverage Adequacy: 1139
+Coverage Ambiguity: 1140
+Coverage Continuity: 1141
+Coverage Exclusions: 1142
+Coverage Extension: 1143
+Coverage Limitation: 1144
+Coverage Priority: 1145
+Coverage Requirement: 1146
+Coverage Termination: 1147
+Credit: 1148
+Credit Assurance: 1149
+Credit/Fraud Losses: 1150
+Creditor Protection: 1151
+Cross-Border Financial Obligation: 1152
+Cross-Border Issues: 1153
+Cross-Border Legal: 1154
+Cross-Border Legal Complexity: 1155
+Cross-Claim: 1156
+Cross-Indemnity: 1157
+Cross-Jurisdictional Legal: 1158
+Cross-Licensing: 1159
+Cross-Licensing Agreement: 1160
+Cross-Licensing Obligations: 1161
+Cross-Licensing Terms: 1162
+Cross-Referencings: 1163
+Cumulative Liability Limit: 1164
+Custodian Responsibilities: 1165
+Customer: 1166
+Customer Agreement: 1167
+Customer Communication: 1168
+Customer Contract Termination: 1169
+Customer Data Oversight: 1170
+Customer Engagement: 1171
+Customer Feedback: 1172
+Customer Limitation: 1173
+Customer Non-Solicitation: 1174
+Customer Obligation: 1175
+Customer Ownership: 1176
+Customer Poaching Restriction: 1177
+Customer Protection: 1178
+Customer Repair: 1179
+Customer Responsibility: 1180
+Customer Retention: 1181
+Customer Rights: 1182
+Customer Service: 1183
+Customer Sublicensing: 1184
+Customer Support: 1185
+Customer Support Obligation: 1186
+Customer Transition: 1187
+Customer Usage Rights: 1188
+Customization of Policy Trailer: 1189
+Cyber & Fraud Protection: 1190
+Cybersecurity: 1191
+Cybersecurity & Data Breach: 1192
+Cybersecurity?: 1193
+Damage Limitation: 1194
+Damages: 1195
+Damages Exclusion: 1196
+Damages Limitation: 1197
+Damages Waiver: 1198
+Data & Financial Losss: 1199
+Data & Intellectual Property: 1200
+Data & Intellectual Property Transfer: 1201
+Data & Material Disposal: 1202
+Data & Record Loss: 1203
+Data & Trade Secret: 1204
+Data Access: 1205
+Data Access & Audit: 1206
+Data Access & Confidentiality: 1207
+Data Access & Licensing: 1208
+Data Access & Privacy: 1209
+Data Access & Retention: 1210
+Data Access Control: 1211
+Data Access Obligation: 1212
+Data Access Obligation for Third-Party Contracts: 1213
+Data Access Requirement: 1214
+Data Access Restriction: 1215
+Data Access and Confidentiality: 1216
+Data Access and Privacy: 1217
+Data Accuracy: 1218
+Data Accuracy and Reliability: 1219
+Data Aggregation: 1220
+Data Commercialization: 1221
+Data Confidentiality: 1222
+Data Control: 1223
+Data Control & Compliance: 1224
+Data Control & Confidentiality: 1225
+Data Control and Usage: 1226
+Data Costs: 1227
+Data Deletion Requirement: 1228
+Data Disclosure & Audit: 1229
+Data Disclosure Obligation: 1230
+Data Handling: 1231
+Data Handling Rights: 1232
+Data Integrity: 1233
+Data Loss Exclusion: 1234
+Data Loss Limitation: 1235
+Data Management: 1236
+Data Misuse: 1237
+Data Ownership: 1238
+Data Ownership & Control: 1239
+Data Ownership & Licensing: 1240
+Data Ownership & Privacy: 1241
+Data Privacy: 1242
+Data Privacy & Audit Compliance: 1243
+Data Privacy & Compliance: 1244
+Data Privacy & Confidentiality: 1245
+Data Privacy & Licensing: 1246
+Data Privacy & Ownership: 1247
+Data Privacy & Usage Restriction: 1248
+Data Privacy and Compliance: 1249
+Data Privacy and Confidentiality: 1250
+Data Privacy and Non-Solicitation: 1251
+Data Protection: 1252
+Data Protection & Backup Responsibility: 1253
+Data Protection & Non-Solicitation: 1254
+Data Protection Compliance: 1255
+Data Protection Liability: 1256
+Data Provision: 1257
+Data Purchase Obligation: 1258
+Data Reliability: 1259
+Data Restriction / Post-Term Obligation: 1260
+Data Restrictions: 1261
+Data Retention: 1262
+Data Retention & Compliance: 1263
+Data Retention & Post-Termination Rights: 1264
+Data Retention Restriction: 1265
+Data Rights and Licensing: 1266
+Data Security: 1267
+Data Security & Access: 1268
+Data Security & Compliance: 1269
+Data Security & Confidentiality: 1270
+Data Security & Liability: 1271
+Data Security & Remote Access: 1272
+Data Security?: 1273
+Data Sensitivity & Control: 1274
+Data Sharing: 1275
+Data Sharing & Licensing: 1276
+Data Sharing & Regulatory Compliance: 1277
+Data Sharing Obligation: 1278
+Data Sharing Requirement: 1279
+Data Sharing Restrictions: 1280
+Data Storage: 1281
+Data Storage Compliance: 1282
+Data Transfer: 1283
+Data Transfer Obligation: 1284
+Data Transparency: 1285
+Data Usage: 1286
+Data Usage & Privacy: 1287
+Data Usage Restriction: 1288
+Data Usage Restrictions: 1289
+Data Usage Rights: 1290
+Data Use Restrictions: 1291
+Data and Information Rights: 1292
+Data and Process Access: 1293
+Decision Delay: 1294
+Decision Timeline Obligation: 1295
+Decision Timeliness: 1296
+Decision-Making Timeframe: 1297
+Dedicated Resource Obligation: 1298
+Deemed Waiver of Rights: 1299
+Defamation and IP: 1300
+Default & Bankruptcy Clause: 1301
+Default Condition Restriction: 1302
+Default and Cure Rights: 1303
+Default/Termination: 1304
+Defect Resolution: 1305
+Defective Product: 1306
+Defense Control: 1307
+Defense Cost Coverage: 1308
+Defense Obligation: 1309
+Defense Obligations: 1310
+Defense Responsibility: 1311
+Defense Rights: 1312
+Defense and Settlement Rights: 1313
+Defined Contact Limitation: 1314
+Defined Duration: 1315
+Defined Effective Date: 1316
+Defined Timeline: 1317
+Definition & Interpretation: 1318
+Definition Ambiguity: 1319
+Definition Clause: 1320
+Definition of Content Provider: 1321
+Definition of Entity: 1322
+Definition of Parties: 1323
+Definitions: 1324
+Delay Charges: 1325
+Delay Management: 1326
+Delay in Ownership Transfer: 1327
+Delayed Consent: 1328
+Delayed Financial Liabilities: 1329
+Delayed Termination: 1330
+Delegation Restriction: 1331
+Delegation Rights: 1332
+Delivery: 1333
+Delivery Compliance: 1334
+Delivery Constraints: 1335
+Delivery Location Clarity: 1336
+Delivery Obligation: 1337
+Delivery Schedule: 1338
+Demonstration License: 1339
+Dependency on Master Agreement: 1340
+Dependency on Other Clauses: 1341
+Dependency on Third-Party Agreements: 1342
+Dependency on Third-Party Licensing: 1343
+Dependent Expiry Condition: 1344
+Deployment Limitation: 1345
+Depreciation: 1346
+Derivative Work Restriction: 1347
+Derivative Works Usage: 1348
+Derivative Works and Copy Protection: 1349
+Development: 1350
+Development Delays: 1351
+Development Freeze: 1352
+Development Licensing: 1353
+Development Obligation: 1354
+Development Obligations: 1355
+Development Ownership: 1356
+Development Process: 1357
+Development Rights: 1358
+Development and Commercialization Rights: 1359
+Development-Related Data Usage: 1360
+Digital Asset Control: 1361
+Digital Carousel Advertising: 1362
+Digital Contract Execution: 1363
+Digital Linking: 1364
+Digital Media Usage: 1365
+Digital Rights: 1366
+Digital Sales Model: 1367
+Digital Usage Rights: 1368
+Dilution: 1369
+Disclaimer of Confidential Information Accuracy: 1370
+Disclaimer of Liability: 1371
+Disclaimer of Warranties: 1372
+Disclaimer of Warranty: 1373
+Disclaimers: 1374
+Disclosure: 1375
+Disclosure & Identification: 1376
+Disclosure & Information: 1377
+Disclosure & Timing: 1378
+Disclosure Accuracy: 1379
+Disclosure Obligation: 1380
+Disclosure Obligations: 1381
+Disclosure Requirements: 1382
+Discount Limitations: 1383
+Discretionary Obligation: 1384
+Discretionary Registration Rights: 1385
+Discretionary Rights: 1386
+Disposition Timing: 1387
+Dispute: 1388
+Dispute & Compensation: 1389
+Dispute Handling Ambiguity Ri: 1390
+Dispute Resoluti: 1391
+Dispute Resolutio: 1392
+Dispute Resolution: 1393
+Dispute Resolution Ambiguity: 1394
+Distribution: 1395
+Distribution & Sales: 1396
+Distribution Agreement: 1397
+Distribution Control: 1398
+Distribution Limitation: 1399
+Distribution Method Restrictions: 1400
+Distribution Obligation: 1401
+Distribution Restriction: 1402
+Distribution Restrictions: 1403
+Distribution Rights: 1404
+Distributor Indemnification: 1405
+Distributor Liability: 1406
+Diverging Legal Interests: 1407
+Divestiture Notification Obligation: 1408
+Document Transfer: 1409
+Documentation: 1410
+Documentation & Assignment: 1411
+Documentation & Compliance: 1412
+Documentation Access: 1413
+Documentation Accuracy: 1414
+Documentation Compliance: 1415
+Documentation Compliance Ris: 1416
+Documentation Obligation: 1417
+Documentation Requirement: 1418
+Documentation Requirements: 1419
+Documentation and Compliance: 1420
+Domain Licensing: 1421
+Domain Name Reassignment: 1422
+Domain Name Restriction: 1423
+Domain Name Transfer: 1424
+Domain Name Usage: 1425
+Downtime Limitations: 1426
+Due Diligence: 1427
+Duration Ambiguity: 1428
+Duration Limitation: 1429
+Duration Overreach: 1430
+Duration of Agreement: 1431
+Duration of Transition Obligations: 1432
+E-Commerce Limitation: 1433
+Early Renewal Requirement: 1434
+Early Termination: 1435
+Early Termination Clause: 1436
+Early Termination Condition: 1437
+Early Termination Cost: 1438
+Economic Loss: 1439
+Effective Date Clarification: 1440
+Effective Date of Termination: 1441
+Employee: 1442
+Employee Benefits: 1443
+Employee Compensation: 1444
+Employee Coverage: 1445
+Employee Fraud: 1446
+Employee IP Assignment Compliance: 1447
+Employee Liability: 1448
+Employee Liability Exclusion: 1449
+Employee Misclassification: 1450
+Employee Misconduct: 1451
+Employee Mobility Restriction: 1452
+Employee Non-Solicitation: 1453
+Employee Oversight: 1454
+Employee Poaching: 1455
+Employee Poaching & Compensation: 1456
+Employee Poaching Restriction: 1457
+Employee Protection: 1458
+Employee Redundancy: 1459
+Employee Relations: 1460
+Employee Retention: 1461
+Employee Retention Obligation: 1462
+Employee Rights: 1463
+Employee Rights Violation: 1464
+Employee Safety & Compliance: 1465
+Employee Solicitation: 1466
+Employee Solicitation & Non-Solicitation: 1467
+Employee and Customer Interaction: 1468
+Employee-Initiated Contact: 1469
+Employer Discretion: 1470
+Employer Liability: 1471
+Employment: 1472
+Employment & Benefits: 1473
+Employment & Competition Restriction: 1474
+Employment & Competitive: 1475
+Employment & IP: 1476
+Employment & Termination: 1477
+Employment Classification: 1478
+Employment Liabilities: 1479
+Employment Liability: 1480
+Employment Restriction: 1481
+Employment Restriction Exception: 1482
+Employment Restrictions: 1483
+Employment Rights: 1484
+Employment Rights Waiver: 1485
+Employment Solicitation Loophole: 1486
+Employment Termination: 1487
+Employment Terms: 1488
+Employment and Contractual: 1489
+Employment and Legal Liability: 1490
+Employment/IP Conflict: 1491
+Endorsement: 1492
+Endorsement & Competition: 1493
+Endorsement & Competitive Activities: 1494
+Endorsement Approval: 1495
+Endorsement Clarification: 1496
+Endorsement Commitment: 1497
+Endorsement Compliance: 1498
+Endorsement Flexibility: 1499
+Endorsement Liability: 1500
+Endorsement Obligation: 1501
+Endorsement Restriction: 1502
+Endorsement Rights: 1503
+Endorsement and Advertising Rights: 1504
+Endorser Liability Exemption: 1505
+Enforceability: 1506
+Enforceability & Compliance: 1507
+Enforceability Concern: 1508
+Enforceability of Assignment Restrictions: 1509
+Enforceability of Limitations: 1510
+Enforceability of Restrictive Covenants: 1511
+Enforcement: 1512
+Enforcement & Accountability: 1513
+Enforcement & Dispute: 1514
+Enforcement & Legal Recourse: 1515
+Enforcement & Liability: 1516
+Enforcement Ambiguity: 1517
+Enforcement Obligation: 1518
+Enforcement Rights: 1519
+Enforcement Uncertainty: 1520
+Enrollment: 1521
+Entire Agreement: 1522
+Entity Identification: 1523
+Entity Listing: 1524
+Environmental: 1525
+Environmental Compliance: 1526
+Environmental and Safety: 1527
+Equipment Dependency: 1528
+Equipment Inspection Rights: 1529
+Equipment Usage: 1530
+Equipment and Service Agreement Exception: 1531
+Equitable Contribution: 1532
+Equitable Relief: 1533
+Equitable Remedies: 1534
+Equity: 1535
+Equity & Ownership: 1536
+Equity & Transaction Restriction: 1537
+Equity Compensation: 1538
+Equity Conversion: 1539
+Equity Dilution: 1540
+Equity Dilution Protection: 1541
+Equity Distribution: 1542
+Equity Financing: 1543
+Equity Grant: 1544
+Equity Holding Restriction: 1545
+Equity Obligation: 1546
+Equity Pricing: 1547
+Equity Protection: 1548
+Equity Restrictions: 1549
+Equity Transfer: 1550
+Errors and Omissions Insurance: 1551
+Escrow Agreement: 1552
+Escrow Arrangements: 1553
+Escrow Conditions: 1554
+Escrow Release Conditions: 1555
+Escrow Requirement: 1556
+Escrow Rights: 1557
+Ethical & Legal: 1558
+Ethical Compliance: 1559
+Ethical Practices: 1560
+Ethical Representation: 1561
+Ethical Violations: 1562
+Event Liability: 1563
+Event Participation Limits: 1564
+Event-Based Revenue: 1565
+Event-Based Termination: 1566
+Evidence Access: 1567
+Evidence Requirement: 1568
+Exception Clause: 1569
+Exception for Bodily Harm: 1570
+Exception for Misconduct: 1571
+Exception to Indemnity: 1572
+Exception to Liability Limitations: 1573
+Exception to Limitation of Liability: 1574
+Exception to Non-Compete: 1575
+Exception to Restriction: 1576
+Exceptions Reduce Effectivenes: 1577
+Exceptions to Liability: 1578
+Exceptions to Liability Cap: 1579
+Exceptions to Liability Exclusions: 1580
+Exceptions to Liability Limitation: 1581
+Exceptions to Liability Limitations: 1582
+Exceptions to Limitation: 1583
+Excess Liability: 1584
+Excessive Financial Obligation: 1585
+Excluded Liabilities: 1586
+Exclusion for Gross Negligence: 1587
+Exclusion for Severe Misconduct: 1588
+Exclusion of Business Losses: 1589
+Exclusion of Certain Damages: 1590
+Exclusion of Certain Liabilities: 1591
+Exclusion of Consequential Damages: 1592
+Exclusion of Consequential Loss: 1593
+Exclusion of Damages: 1594
+Exclusion of Gross Negligence: 1595
+Exclusion of Implied Warranties: 1596
+Exclusion of Indirect Damages: 1597
+Exclusion of International Law: 1598
+Exclusion of Liability: 1599
+Exclusion of Liability for Damages: 1600
+Exclusion of Lost Profits/Losses: 1601
+Exclusion of Punitive Damages: 1602
+Exclusion of Third-Party Rights: 1603
+Exclusions from Confidentiality: 1604
+Exclusions from Indemnification: 1605
+Exclusions from Indemnity: 1606
+Exclusions of Liability: 1607
+Exclusive Agency Agreement: 1608
+Exclusive Asset Control: 1609
+Exclusive Broadcasting Rights: 1610
+Exclusive Business Agreement: 1611
+Exclusive Business Association: 1612
+Exclusive Business Rights: 1613
+Exclusive Control: 1614
+Exclusive Customer Data Control: 1615
+Exclusive Data Ownership: 1616
+Exclusive Development Rights: 1617
+Exclusive Distribution: 1618
+Exclusive Distribution Restriction: 1619
+Exclusive Distribution Rights: 1620
+Exclusive Distributor: 1621
+Exclusive Endorsement Agreement: 1622
+Exclusive Endorsement Requirement: 1623
+Exclusive IP Control: 1624
+Exclusive Jurisdiction: 1625
+Exclusive Licensing: 1626
+Exclusive Licensing Obligation: 1627
+Exclusive Licensing Rights: 1628
+Exclusive Licensings: 1629
+Exclusive Marketing Rights: 1630
+Exclusive Negotiation Rights: 1631
+Exclusive Ownership: 1632
+Exclusive Purchase Obligation: 1633
+Exclusive Relationship: 1634
+Exclusive Remedies / Warranty Disclaimer: 1635
+Exclusive Remedy Clause: 1636
+Exclusive Remedy Limitation: 1637
+Exclusive Rights: 1638
+Exclusive Rights Restriction: 1639
+Exclusive Sales Obligation: 1640
+Exclusive Sponsorship Rights: 1641
+Exclusive Supplier Agreement: 1642
+Exclusivity: 1643
+Exclusivity & Competition: 1644
+Exclusivity & First Refusal: 1645
+Exclusivity & Licensing: 1646
+Exclusivity & Payment Obligation: 1647
+Exclusivity & Pre-Emptive Rights: 1648
+Exclusivity & Resale Restrictions: 1649
+Exclusivity & Restriction: 1650
+Exclusivity & Restrictions: 1651
+Exclusivity & Restrictive Covenants: 1652
+Exclusivity & Restrictive Trade: 1653
+Exclusivity & Third-Party Rights: 1654
+Exclusivity Clause: 1655
+Exclusivity Condition: 1656
+Exclusivity Conflict: 1657
+Exclusivity Enforcement: 1658
+Exclusivity Limitation: 1659
+Exclusivity Limitations: 1660
+Exclusivity Loss: 1661
+Exclusivity Obligation: 1662
+Exclusivity Restriction: 1663
+Exclusivity Restrictions: 1664
+Exclusivity Revocation: 1665
+Exclusivity Termination: 1666
+Exclusivity and Market Restriction: 1667
+Exclusivity and Restrictions: 1668
+Execution: 1669
+Exemption: 1670
+Exemption Clause: 1671
+Exemption from Liability Cap: 1672
+Exemption from Punitive Damages: 1673
+Exemption from Right of First Refusal: 1674
+Exemptions & Carve-outs: 1675
+Existing Agreements: 1676
+Exit Fee Obligation: 1677
+Exit Plan Uncertainty: 1678
+Expansion Limitation: 1679
+Expected Franchise Terms: 1680
+Expected Quality Guarantee: 1681
+Expected Use: 1682
+Expenditure Restriction: 1683
+Expense Reimbursement: 1684
+Expiration Event: 1685
+Export & Trade Compliance: 1686
+Export Compliance: 1687
+Export Control: 1688
+Export Control Compliance: 1689
+Export Restriction: 1690
+Extended Confidentiality Duration: 1691
+Extended Contract: 1692
+Extended Coverage: 1693
+Extended Legal Exposure: 1694
+Extended Liability: 1695
+Extended Liability Exposure: 1696
+Extended Liability Obligation: 1697
+Extended Liability Period: 1698
+Extended Liability Protection: 1699
+Extended License: 1700
+Extended License Term: 1701
+Extended Non-Compete Period: 1702
+Extended Non-Solicitation Scope: 1703
+Extended Publicity Rights: 1704
+Extended Record Accessibility: 1705
+Extended Record-Keeping Obligation: 1706
+Extended Reporting Window: 1707
+Extended Restriction: 1708
+Extended Sale Rights: 1709
+Extended Warranty: 1710
+Extension Without Additional Fees: 1711
+Facility Access: 1712
+Facility Change: 1713
+Facility Disposition: 1714
+Facility Expansion: 1715
+Fair Access: 1716
+Fair Access to Resources: 1717
+Fair Allocation: 1718
+Fair Assignment Mechanism: 1719
+Fair Business Practice: 1720
+Fair Competition: 1721
+Fair Competition Obligation: 1722
+Fair Competition and Contractual Restraints: 1723
+Fair Contracting: 1724
+Fair Dealing: 1725
+Fair Dealing Obligation: 1726
+Fair Hiring Opportunity: 1727
+Fair Market Pricing: 1728
+Fair Opportunity: 1729
+Fair Pricing: 1730
+Fair Termination Clause: 1731
+Fair Trade Practices: 1732
+Fair Treatment: 1733
+Fairness: 1734
+Fairness Clause: 1735
+Fairness Concern: 1736
+Fairness Consideration: 1737
+Fairness Obligation: 1738
+False Advertising & Misrepresentation: 1739
+Feasibility Study: 1740
+Fee Adjustment: 1741
+Fee Allocation: 1742
+Fee Exemption: 1743
+Fee Negotiation: 1744
+Fee Restrictions: 1745
+Fee Sharing: 1746
+Fee and Obligations: 1747
+Fiduciary Duties: 1748
+Fiduciary Responsibilities: 1749
+Fiduciary Responsibility: 1750
+Field-Specific Limitation: 1751
+Field-Specific Restriction: 1752
+Filing Rights: 1753
+Financial: 1754
+Financial & Associative Restriction: 1755
+Financial & Business Interruption: 1756
+Financial & Commission Dispute: 1757
+Financial & Compliance: 1758
+Financial & Contractual Penalty: 1759
+Financial & IP Rights: 1760
+Financial & Investment: 1761
+Financial & Legal: 1762
+Financial & Liability: 1763
+Financial & Licensing: 1764
+Financial & Operational: 1765
+Financial & Performance: 1766
+Financial & Quality Compliance: 1767
+Financial & Revenue: 1768
+Financial (No Profit Sharing): 1769
+Financial Accountability: 1770
+Financial Accuracy: 1771
+Financial Adjustment: 1772
+Financial Advisory & Marketing: 1773
+Financial Agreement: 1774
+Financial Agreement and Obligations: 1775
+Financial Allocation: 1776
+Financial Assignment: 1777
+Financial Assurance: 1778
+Financial Audit: 1779
+Financial Audit & Compliance: 1780
+Financial Audit Cost Burden: 1781
+Financial Audit Liability: 1782
+Financial Audit Limitation: 1783
+Financial Audit Rights: 1784
+Financial Audits: 1785
+Financial Benefit: 1786
+Financial Burden: 1787
+Financial Burden & Revenue Deduction: 1788
+Financial Burden & Transfer: 1789
+Financial Burden Transfer: 1790
+Financial Burden of Insurance: 1791
+Financial Burden on Calm: 1792
+Financial Burden on Franchisee: 1793
+Financial Burden on Indemnified Party: 1794
+Financial Calculation Ambiguity: 1795
+Financial Calculation Complexity: 1796
+Financial Cap: 1797
+Financial Cap on Liability: 1798
+Financial Commitment: 1799
+Financial Commitment Obligation: 1800
+Financial Compensation: 1801
+Financial Compliance: 1802
+Financial Compliance & Penalty: 1803
+Financial Consideration: 1804
+Financial Constraint: 1805
+Financial Contingency: 1806
+Financial Continuity: 1807
+Financial Contribution Limitation: 1808
+Financial Control: 1809
+Financial Control & Disclosure: 1810
+Financial Damages: 1811
+Financial Data Maintenance: 1812
+Financial Deduction: 1813
+Financial Dependency: 1814
+Financial Disclosure: 1815
+Financial Discrepancy: 1816
+Financial Escalation: 1817
+Financial Exposure: 1818
+Financial Exposure Limitation: 1819
+Financial Flexibility: 1820
+Financial Impact: 1821
+Financial Indemnity: 1822
+Financial Interest: 1823
+Financial Liability: 1824
+Financial Liability Cap: 1825
+Financial Liability Limitation: 1826
+Financial Limitation: 1827
+Financial Limitations: 1828
+Financial Loss: 1829
+Financial Management: 1830
+Financial Negotiation: 1831
+Financial Obligation: 1832
+Financial Obligation & Liability: 1833
+Financial Obligation Relief: 1834
+Financial Obligation for Patents: 1835
+Financial Obligations: 1836
+Financial Obligations & Payment Terms: 1837
+Financial Obligations & Revenue Sharing: 1838
+Financial Obligations & Terminations: 1839
+Financial Obligations for Transition: 1840
+Financial Obligations on Termination: 1841
+Financial Operations: 1842
+Financial Oversight: 1843
+Financial Oversight Burden: 1844
+Financial Penalties: 1845
+Financial Penalty: 1846
+Financial Penalty Clause: 1847
+Financial Penalty for Termination: 1848
+Financial Performance Obligation: 1849
+Financial Protection: 1850
+Financial Reconciliation Obligation: 1851
+Financial Record-Keeping: 1852
+Financial Recovery Limits: 1853
+Financial Reporting: 1854
+Financial Requirement: 1855
+Financial Responsibility: 1856
+Financial Restriction: 1857
+Financial Review: 1858
+Financial Security: 1859
+Financial Stability: 1860
+Financial Stability & Control: 1861
+Financial Stability Clause: 1862
+Financial Terms: 1863
+Financial Threshold for Termination: 1864
+Financial Transparency: 1865
+Financial Transparency & Control: 1866
+Financial Transparency and Reporting: 1867
+Financial Uncertainty: 1868
+Financial Valuation: 1869
+Financial Verification: 1870
+Financial Wind-Down Obligation: 1871
+Financial Withholding: 1872
+Financial and Compensation Obligation: 1873
+Financial and Confidentiality Compliance: 1874
+Financial and Data Loss: 1875
+Financial and Licensing: 1876
+Financial and Payment: 1877
+Financial and Record-Keeping Obligation: 1878
+Financial for GSK: 1879
+Financial to Servicer: 1880
+Financial?: 1881
+Financing Rights: 1882
+Fitness & Merchantability Warranty Disclaimer: 1883
+Fitness for Purpose: 1884
+Fixed Ad Placement Requirement: 1885
+Fixed Cost Burden: 1886
+Fixed End Date: 1887
+Fixed Payment: 1888
+Fixed Penalty Structure: 1889
+Fixed Quantity Commitment: 1890
+Fixed Term Contract: 1891
+Fixed Term Duration: 1892
+Fleet Size Control: 1893
+Flexibility: 1894
+Flexibility in Compliance: 1895
+Flexibility in Transition Services: 1896
+Food Safety Compliance: 1897
+For-Cause Audit Compliance: 1898
+Force Majeure: 1899
+Forced Assignment: 1900
+Forced Buyout: 1901
+Forced Fulfillment Clause: 1902
+Forced Patent Transfer: 1903
+Forced Sale Obligation: 1904
+Forced Termination: 1905
+Forecasting: 1906
+Forecasting and Orders: 1907
+Foreseeability: 1908
+Foreseeability Clause: 1909
+Foreseeable Damage Disclaimer: 1910
+Foreseen Exclusion: 1911
+Foreseen Liability: 1912
+Formal Notice Requirement: 1913
+Forum Selection: 1914
+Franchise & Business Ownership: 1915
+Franchise & Licensing: 1916
+Franchise & Regulatory: 1917
+Franchise Agreement: 1918
+Franchise Assignment/Transfer: 1919
+Franchise Compliance: 1920
+Franchise Control: 1921
+Franchise Expansion Cost: 1922
+Franchise Obligations: 1923
+Franchise Renewal: 1924
+Franchise Rights: 1925
+Franchise Royalty Obligation: 1926
+Franchise Termination Rights: 1927
+Franchisee Compensation: 1928
+Franchisee Enforcement: 1929
+Franchisee Identification: 1930
+Franchisee Identification Rights: 1931
+FranchisorÂs Discretion: 1932
+Fraud: 1933
+Fraud Exception Protection: 1934
+Fraud Liability Obligation: 1935
+Fraud Prevention: 1936
+Fraud and Employee Misconduct: 1937
+Fraud and Negligence Exception: 1938
+Fraudulent Payment: 1939
+Freedom of Speech: 1940
+Freight Charges: 1941
+Frequency Limitation: 1942
+Frequency Restriction: 1943
+Frequency and Timing Restrictions: 1944
+Full IP Transfer Without Compensation: 1945
+Full Vesting Trigger: 1946
+Functional: 1947
+Fund Allocation: 1948
+Funding Obligation: 1949
+Future IP Assignment: 1950
+Future IP Protection: 1951
+Future IP Rights: 1952
+Future Legal Claim Prevention: 1953
+Future Patent: 1954
+Future Rights: 1955
+Future Rights Assignment: 1956
+General Agreement Clause: 1957
+General Business Information: 1958
+General Contract Parties: 1959
+General Contractual Definitions: 1960
+General Definitions: 1961
+General Hiring Practice Exception: 1962
+General Indemnification: 1963
+General Liability: 1964
+General Recruitment Allowance: 1965
+General Solicitation Exception: 1966
+Genetic Resource Control: 1967
+Geographic: 1968
+Geographic Distribution Restrictions: 1969
+Geographic Limitation: 1970
+Geographic Overreach: 1971
+Geographic Restriction: 1972
+Geographic Restrictions: 1973
+Geographic Scope: 1974
+Geographical Limitation: 1975
+Geographical Non-Compete: 1976
+Geographical Restriction: 1977
+Global Access: 1978
+Global Enforceability: 1979
+Global Enforcement: 1980
+Global IP Control: 1981
+Global Jurisdictions: 1982
+Global Licensing: 1983
+Global Restriction: 1984
+Global Waiver of Rights: 1985
+Goodwill Allocation: 1986
+Governance: 1987
+Governance & Compliance: 1988
+Governance Obligation: 1989
+Governance Requirement: 1990
+Governing Law: 1991
+Governing Law & Conflict of Laws: 1992
+Governing Law & Jurisdiction: 1993
+Governing Law Jurisdiction: 1994
+Government Compliance: 1995
+Government Intervention: 1996
+Government Rights: 1997
+Gross Negligence & Misconduct: 1998
+Gross Negligence & Willful Misconduct: 1999
+Gross Negligence Exemption: 2000
+Guaranteed Circulation: 2001
+Guaranteed Payment Obligation: 2002
+Hardware Defect: 2003
+Hardware Support: 2004
+Hazardous Material Handling: 2005
+Health & Safety Liability: 2006
+Healthcare Compliance & Fraud: 2007
+Hidden Terms: 2008
+High Financial Obligation: 2009
+High Threshold Dependency: 2010
+Hiring Approval Requirement: 2011
+Hiring Exception: 2012
+Hiring Flexibility: 2013
+Hiring Practice: 2014
+Hiring Practices: 2015
+Hiring Restriction: 2016
+Hiring Restrictions: 2017
+Home Video Rights: 2018
+Hospitality: 2019
+Hosting & Billing: 2020
+Hosting & Maintenance: 2021
+Hosting & Operational Control: 2022
+Hosting & Revenue Adjustment: 2023
+Hosting & Service Disclaimers: 2024
+IP: 2025
+IP & Confidentiality: 2026
+IP & Contractual: 2027
+IP & Data Security: 2028
+IP & Manufacturing Restriction: 2029
+IP & Reproduction Restriction: 2030
+IP & Restriction: 2031
+IP & Third-Party Liability: 2032
+IP & Trademark: 2033
+IP Acknowledgment: 2034
+IP Assignment: 2035
+IP Assignment Obligation: 2036
+IP Assignment and Confidentiality: 2037
+IP Challenge Restriction: 2038
+IP Co-Ownership: 2039
+IP Commercialization: 2040
+IP Compliance: 2041
+IP Continuity: 2042
+IP Control: 2043
+IP Control & Business Expansion: 2044
+IP Control & Monetization: 2045
+IP Dilution: 2046
+IP Disclosure Rights: 2047
+IP Dispute: 2048
+IP Dispute Restrictions: 2049
+IP Enforcement: 2050
+IP Enforcement Ambiguity: 2051
+IP Enforcement Obligation: 2052
+IP Exclusion: 2053
+IP Exclusion in Assignment: 2054
+IP Exclusions: 2055
+IP Indemnification: 2056
+IP Infringement: 2057
+IP Infringement Liability: 2058
+IP Infringement Representation: 2059
+IP Infringements: 2060
+IP Licensing: 2061
+IP Licensing & Commercialization: 2062
+IP Licensing & Transfer: 2063
+IP Licensing Ambiguity: 2064
+IP Licensing Restriction: 2065
+IP Licensing Rights: 2066
+IP Management: 2067
+IP Modification: 2068
+IP Negotiation: 2069
+IP Overlap: 2070
+IP Ownership: 2071
+IP Ownership & Assignment: 2072
+IP Ownership & Duration: 2073
+IP Ownership & Usage: 2074
+IP Ownership & Usage Rights: 2075
+IP Ownership / Enforcement: 2076
+IP Ownership Ambiguity: 2077
+IP Ownership Assurance: 2078
+IP Ownership Confirmation: 2079
+IP Ownership Dispute: 2080
+IP Ownership Limitation: 2081
+IP Ownership Recognition: 2082
+IP Ownership Restriction: 2083
+IP Ownership Transfer: 2084
+IP Ownership and Compensation: 2085
+IP Protection: 2086
+IP Reassignment: 2087
+IP Remedy: 2088
+IP Restriction: 2089
+IP Restriction & Business Continuity: 2090
+IP Restrictions: 2091
+IP Retention: 2092
+IP Retention Clause: 2093
+IP Reversion: 2094
+IP Rights: 2095
+IP Rights & Ownership: 2096
+IP Rights Ambiguity: 2097
+IP Rights Dilution: 2098
+IP Rights Dispute: 2099
+IP Rights Enforcement: 2100
+IP Rights Restriction: 2101
+IP Rights Retention: 2102
+IP Rights Violation: 2103
+IP Scope Definition: 2104
+IP Sharing: 2105
+IP Suspension: 2106
+IP Transfer: 2107
+IP Transfer & Sublicensing: 2108
+IP Transfer Confirmation: 2109
+IP Transfer Obligation: 2110
+IP Usage: 2111
+IP Usage & Restrictions: 2112
+IP Usage Limitation: 2113
+IP Usage Restriction: 2114
+IP Usage Rights: 2115
+IP Utilization Scope: 2116
+IP Violation: 2117
+IP and Branding: 2118
+IT & Compliance: 2119
+IT & Cybersecurity: 2120
+IT Infrastructure Damage: 2121
+IT Security: 2122
+Imbalance in Termination Rights: 2123
+Imbalanced Termination Rights: 2124
+Immediate Cessation: 2125
+Immediate Termination: 2126
+Immediate Usage Termination: 2127
+Implementation: 2128
+Implicit Acceptance: 2129
+Implied Acceptance: 2130
+Implied Acceptance of Financial Reports: 2131
+Implied Consent: 2132
+Implied Contractual Obligation: 2133
+Implied Warranty: 2134
+Increased Performance Obligation: 2135
+Increased Termination Cost: 2136
+Indefinite Commitment: 2137
+Indefinite Contract Duration: 2138
+Indefinite Liability: 2139
+Indefinite Obligation: 2140
+Indefinite Renewal: 2141
+Indefinite Section Applicability: 2142
+Indefinite Term Dependency: 2143
+Indemnification: 2144
+Indemnification & Compliance: 2145
+Indemnification & IP: 2146
+Indemnification & Liability: 2147
+Indemnification & Liability Limitation: 2148
+Indemnification & Third-Party Claims: 2149
+Indemnification / Liability Shift: 2150
+Indemnification Ambiguity: 2151
+Indemnification Clause: 2152
+Indemnification Conditions: 2153
+Indemnification Duration: 2154
+Indemnification Enforcement: 2155
+Indemnification Exception: 2156
+Indemnification Exceptions: 2157
+Indemnification Exclusion: 2158
+Indemnification Limitation: 2159
+Indemnification Limitations: 2160
+Indemnification Obligation: 2161
+Indemnification Obligations: 2162
+Indemnification Procedure: 2163
+Indemnification Process: 2164
+Indemnification Responsibility: 2165
+Indemnification Scope: 2166
+Indemnification for Provided Information: 2167
+Indemnified Parties Definition: 2168
+Indemnity: 2169
+Indemnity Obligation: 2170
+Indemnity Scope Limitation: 2171
+Indemnity and Liability: 2172
+Independent Contractor Poaching Restriction: 2173
+Independent Contractor Status: 2174
+Indeterminate Duration: 2175
+Indirect Competition Limitation: 2176
+Indirect Competition Restriction: 2177
+Indirect Damage Exclusion: 2178
+Indirect Damages: 2179
+Indirect Distribution: 2180
+Indirect Liability: 2181
+Indirect Ownership: 2182
+Inducing Contractual: 2183
+Inducing Employees to Resign: 2184
+Industry Compliance: 2185
+Industry Compliance Requirement: 2186
+Industry Restriction: 2187
+Industry Standard Compliance: 2188
+Industry Standards: 2189
+Industry Standards Not Guaranteed: 2190
+Industry-Specific Restriction: 2191
+Inflation Adjustment: 2192
+Information: 2193
+Information Access: 2194
+Information Accuracy: 2195
+Information Control: 2196
+Information Reliability: 2197
+Information Security: 2198
+Information Sharing: 2199
+Information Sharing Obligation: 2200
+Information Transfer Requirement: 2201
+Informational: 2202
+Informed Consent: 2203
+Infrastructure: 2204
+Infringement Action: 2205
+Infringement Liability: 2206
+Infringement Settlement: 2207
+Injunction: 2208
+Injunctive Relief Exception: 2209
+Innovation Ownership: 2210
+Insolvency: 2211
+Insolvency & Change of Control: 2212
+Inspection & Audit Rights: 2213
+Inspection & Claims: 2214
+Inspection Rights: 2215
+Inspection and Facility Access: 2216
+Inspection and Testing: 2217
+Inspection of Manufacturing Process: 2218
+Institutional Relationship: 2219
+Institutional Research Rights: 2220
+Insurance: 2221
+Insurance & Compliance: 2222
+Insurance & Indemnification: 2223
+Insurance & Liability: 2224
+Insurance & Management: 2225
+Insurance Beneficiary Clause: 2226
+Insurance Cancellation: 2227
+Insurance Cancellation Notice: 2228
+Insurance Complian: 2229
+Insurance Compliance: 2230
+Insurance Continuity: 2231
+Insurance Coverage: 2232
+Insurance Coverage & Liability: 2233
+Insurance Coverage Adequacy: 2234
+Insurance Coverage Obligation: 2235
+Insurance Coverage Requirement: 2236
+Insurance Coverage Requirements: 2237
+Insurance Coverage Scope: 2238
+Insurance Duration: 2239
+Insurance Duration Requirement: 2240
+Insurance Eligibility: 2241
+Insurance Liability & Cost: 2242
+Insurance Limitation: 2243
+Insurance Modification Restriction: 2244
+Insurance Notification: 2245
+Insurance Obligation: 2246
+Insurance Obligations: 2247
+Insurance Provider: 2248
+Insurance Provider Compliance: 2249
+Insurance Provider Requirement: 2250
+Insurance Provider Requirements: 2251
+Insurance Quality Assurance: 2252
+Insurance Requirement: 2253
+Insurance Requirements: 2254
+Insurance Scope: 2255
+Insurance Stability: 2256
+Insurance Sufficiency: 2257
+Insurance and Liability: 2258
+Insurance and Liability Protection: 2259
+Insurance and Management: 2260
+Insurance and Operational: 2261
+Insurance-Based Indemnification: 2262
+Insurer Qualification: 2263
+Integration: 2264
+Integration Clause: 2265
+Integration and IP Merger: 2266
+Intellectual Property: 2267
+Intellectual Property & Business Opportunity Rights: 2268
+Intellectual Property & Escrow Obligations: 2269
+Intellectual Property & Exclusive Rights: 2270
+Intellectual Property & Legal: 2271
+Intellectual Property & Liability: 2272
+Intellectual Property & Licensing: 2273
+Intellectual Property & Software Escrow: 2274
+Intellectual Property (IP): 2275
+Intellectual Property (IP) & Licensing: 2276
+Intellectual Property (IP) Ownership: 2277
+Intellectual Property (IP) Restriction: 2278
+Intellectual Property (IP) Rights: 2279
+Intellectual Property (IP) Usage: 2280
+Intellectual Property Acquisition: 2281
+Intellectual Property Assignment: 2282
+Intellectual Property Compliance: 2283
+Intellectual Property Control: 2284
+Intellectual Property Dispute: 2285
+Intellectual Property Exploitation: 2286
+Intellectual Property Grant: 2287
+Intellectual Property Indemnification Cap: 2288
+Intellectual Property Infringement: 2289
+Intellectual Property License: 2290
+Intellectual Property Licensing: 2291
+Intellectual Property Limitation: 2292
+Intellectual Property Litigation: 2293
+Intellectual Property Management: 2294
+Intellectual Property Ownership: 2295
+Intellectual Property Ownership Assurance: 2296
+Intellectual Property Protection: 2297
+Intellectual Property Reassignment: 2298
+Intellectual Property Recognition: 2299
+Intellectual Property Remediation: 2300
+Intellectual Property Restriction: 2301
+Intellectual Property Restrictions: 2302
+Intellectual Property Retention: 2303
+Intellectual Property Rights: 2304
+Intellectual Property Rights Grant: 2305
+Intellectual Property Scope: 2306
+Intellectual Property Sharing: 2307
+Intellectual Property Termination: 2308
+Intellectual Property Transfer: 2309
+Intellectual Property Transferability: 2310
+Intellectual Property Usage: 2311
+Intellectual Property Usage Restriction: 2312
+Intellectual Property Use: 2313
+Intellectual Property Violation: 2314
+Intellectual Property Warranty: 2315
+Intellectual Property and Privacy: 2316
+Intellectual Property and Publicity Rights: 2317
+Intellectual Property and Source Code Escrow: 2318
+Intellectual Property?: 2319
+Intellectual Propertys: 2320
+Intentional Interference: 2321
+Intentional Misconduct Exception: 2322
+Internal Communications: 2323
+Internal Market Competition: 2324
+Internal Restructuring: 2325
+Internal Use Restriction: 2326
+International Enforcement: 2327
+Interpretation: 2328
+Interpretation & Enforcement: 2329
+Interpretation & Legal Ambiguity: 2330
+Interpretation Ris: 2331
+Invalid Assignment: 2332
+Invalid Assignment Clause: 2333
+Invalid Transfer Clause: 2334
+Inventor Rights: 2335
+Inventory: 2336
+Inventory & Manufacturing Cost: 2337
+Inventory & Sales Rights: 2338
+Inventory Buyback: 2339
+Inventory Buyback Obligation: 2340
+Inventory Control: 2341
+Inventory Disposal: 2342
+Inventory Liquidation: 2343
+Inventory Management: 2344
+Inventory Management Compliance: 2345
+Inventory Replacement: 2346
+Inventory Restriction: 2347
+Inventory Sell-Off: 2348
+Inventory, Audit: 2349
+Investment: 2350
+Investment Allowance: 2351
+Investment Communication: 2352
+Investment Dilution Protection: 2353
+Investment Protection: 2354
+Investment Restrictions: 2355
+Investment Rights: 2356
+Investor Control: 2357
+Investor Information Rights: 2358
+Investor Protection: 2359
+Irrevocable Commitment: 2360
+Irrevocable Fee-Based Licensing: 2361
+Irrevocable License: 2362
+Irrevocable Licensing: 2363
+Irrevocable Loss of Revenue: 2364
+Irrevocable Recognition of Trademark Rights: 2365
+Job Security: 2366
+Joint IP Ownership: 2367
+Joint IP Ownership Complexity: 2368
+Joint Intellectual Property: 2369
+Joint Ownership: 2370
+Joint Ownership & Licensing: 2371
+Joint Ownership Complexity: 2372
+Joint Ownership of Alloy Technologies: 2373
+Joint Ownership of Application Technologies: 2374
+Joint Ownership of Process Technologies: 2375
+Joint Technology: 2376
+Joint Venture Flexibility: 2377
+Joint Venture Negotiation: 2378
+Jurisdiction: 2379
+Jurisdiction & Governing Law: 2380
+Jurisdiction Restriction: 2381
+Jurisdiction Selection: 2382
+Jurisdiction Specification: 2383
+Jurisdiction and Dispute Resolution: 2384
+Jurisdictional: 2385
+Jurisdictional Ambiguity: 2386
+Jurisdictional Barrier: 2387
+Jurisdictional IP: 2388
+Jurisdictional Limitation: 2389
+Jurisdictional Restriction: 2390
+Jurisdictional Scope: 2391
+Jurisdictionals: 2392
+Justification and Transparency: 2393
+Justification for Rate Increase: 2394
+Key Contractual Obligation Breach: 2395
+Key Customer Dependency: 2396
+Key Personnel Replacement: 2397
+Know-How Definition: 2398
+Knowledge Licensing: 2399
+Knowledge Transfer: 2400
+Labor Compliance: 2401
+Lack of Adjustment Mechanism: 2402
+Lack of Alternative Dispute Resolution: 2403
+Lack of Clarity on Missed Deadlines: 2404
+Lack of Compensation: 2405
+Lack of Continuity Planning: 2406
+Lack of Dispute Resolution: 2407
+Lack of Emergency Exit: 2408
+Lack of Enforcement Mechanism: 2409
+Lack of Exit Strategy: 2410
+Lack of Express Warranty: 2411
+Lack of Flexibility: 2412
+Lack of Flexibility &: 2413
+Lack of Flexibility & Exit Strategy: 2414
+Lack of Legal Safeguards: 2415
+Lack of Notice Period: 2416
+Lack of Post-Termination Clarity: 2417
+Lack of Product Performance Guarantee: 2418
+Lack of Protection Against Misconduct: 2419
+Lack of Renegotiation Flexibility: 2420
+Lack of Termination Clarity: 2421
+Lack of Termination Control: 2422
+Language: 2423
+Latent Defect Identification: 2424
+Leadership Change: 2425
+Lease & Franchise Termination: 2426
+Lease Agreement: 2427
+Lease Assignment: 2428
+Lease Termination: 2429
+Lease/Purchase Obligations: 2430
+Legal: 2431
+Legal & Compliance: 2432
+Legal & Consumer Rights: 2433
+Legal & Financial: 2434
+Legal & Financial Exposure: 2435
+Legal & Financial Penalty: 2436
+Legal & Indemnity: 2437
+Legal & Jurisdictional: 2438
+Legal & Management: 2439
+Legal Acknowledgment: 2440
+Legal Assignment: 2441
+Legal Assurance: 2442
+Legal Autonomy: 2443
+Legal Awareness: 2444
+Legal Binding & Liability: 2445
+Legal Challenge: 2446
+Legal Challenge Restriction: 2447
+Legal Classification: 2448
+Legal Compatibility: 2449
+Legal Complexity: 2450
+Legal Compliance: 2451
+Legal Compliance & Confidentiality: 2452
+Legal Conduct: 2453
+Legal Conflict: 2454
+Legal Conflict of Interest: 2455
+Legal Consequences Unclear: 2456
+Legal Control: 2457
+Legal Control Over Franchisees: 2458
+Legal Control via Power of Attorney: 2459
+Legal Cooperation: 2460
+Legal Cost: 2461
+Legal Cost & Uncertainty: 2462
+Legal Cost Allocation: 2463
+Legal Cost Burden: 2464
+Legal Cost Exposure: 2465
+Legal Costs: 2466
+Legal Costs & Liabilities: 2467
+Legal Costs and Liabilities: 2468
+Legal Defense: 2469
+Legal Defense Control: 2470
+Legal Defense Limitation: 2471
+Legal Defense Limitations: 2472
+Legal Defense Obligation: 2473
+Legal Defense Rights: 2474
+Legal Definitions: 2475
+Legal Disclosure: 2476
+Legal Dispute: 2477
+Legal Dispute Clause: 2478
+Legal Dispute Exposure: 2479
+Legal Enforceability: 2480
+Legal Enforcement: 2481
+Legal Enforcement Rights: 2482
+Legal Entities: 2483
+Legal Exception: 2484
+Legal Exclusions: 2485
+Legal Exemption from State Law: 2486
+Legal Expense: 2487
+Legal Expense Coverage: 2488
+Legal Expense Ris: 2489
+Legal Expenses: 2490
+Legal Exposure: 2491
+Legal Fee Burden: 2492
+Legal Fees Responsibility: 2493
+Legal Framework: 2494
+Legal Interpretation: 2495
+Legal Interpretation Issues: 2496
+Legal Jurisdiction: 2497
+Legal Jurisdiction?: 2498
+Legal Justification: 2499
+Legal Liabilit: 2500
+Legal Liability: 2501
+Legal Liability & Cost: 2502
+Legal Liability Allocation: 2503
+Legal Liability Coverage: 2504
+Legal Limitation: 2505
+Legal Notification Obligation: 2506
+Legal Obligation: 2507
+Legal Obligations: 2508
+Legal Oversight Option: 2509
+Legal Ownership: 2510
+Legal Procedural: 2511
+Legal Procedure: 2512
+Legal Process & Compliance: 2513
+Legal Protection: 2514
+Legal Protection Ambiguity: 2515
+Legal Protection Clause: 2516
+Legal Protection Limitation: 2517
+Legal Recourse: 2518
+Legal Recourse Limitation: 2519
+Legal Recourse Restriction: 2520
+Legal Recourse Waiver: 2521
+Legal Release Requirement: 2522
+Legal Remedies: 2523
+Legal Remedy: 2524
+Legal Representation: 2525
+Legal Responsibility: 2526
+Legal Restrictions: 2527
+Legal Restrictions on Challenges: 2528
+Legal Rights: 2529
+Legal Rights and Enforcement: 2530
+Legal Rights of Franchisor: 2531
+Legal Rigidity: 2532
+Legal Safeguard: 2533
+Legal Scope Definition: 2534
+Legal Standing: 2535
+Legal Strategy: 2536
+Legal Structure: 2537
+Legal Subordination: 2538
+Legal Time Limitation: 2539
+Legal Uncertainty: 2540
+Legal Unenforceability: 2541
+Legal Waiver: 2542
+Legal Waiver & Release: 2543
+Legal Waiver of Claims: 2544
+Legal and Compliance: 2545
+Legal and Contractual: 2546
+Legal and Financial: 2547
+Legal and Liability: 2548
+Legal/Compliance: 2549
+Liabilit: 2550
+Liability: 2551
+Liability & Compensation: 2552
+Liability & Damages Cap: 2553
+Liability & Disclaimers: 2554
+Liability & Indemnification: 2555
+Liability & Indemnity: 2556
+Liability & Legal: 2557
+Liability & Misrepresentation: 2558
+Liability & Negligence: 2559
+Liability & Obligations: 2560
+Liability & Penalty: 2561
+Liability & Personal Injury: 2562
+Liability & Responsibility: 2563
+Liability & Warranty: 2564
+Liability Allocation: 2565
+Liability Assumption: 2566
+Liability Cap: 2567
+Liability Cap Without Defined Amount: 2568
+Liability Coverage: 2569
+Liability Coverage Priority: 2570
+Liability Disclaimer: 2571
+Liability Disclaimers: 2572
+Liability Estimation: 2573
+Liability Exception: 2574
+Liability Exceptions: 2575
+Liability Exclusion: 2576
+Liability Exemption: 2577
+Liability Exposure: 2578
+Liability Extension: 2579
+Liability Insurance: 2580
+Liability Insurance Requirement: 2581
+Liability Limitation: 2582
+Liability Limitation & Damage Exclusion: 2583
+Liability Limitation Exception: 2584
+Liability Limitations: 2585
+Liability Management: 2586
+Liability Obligations: 2587
+Liability Protection: 2588
+Liability Release: 2589
+Liability Retention: 2590
+Liability Scope: 2591
+Liability Shield: 2592
+Liability Shielding: 2593
+Liability Transfer: 2594
+Liability Uncertainty: 2595
+Liability Waiver: 2596
+Liability Waiver & Damages Exclusion: 2597
+Liability Waiver Scope: 2598
+Liability and Warranty Disclaimer: 2599
+Liability for Assay Products: 2600
+Liability for Bodily Injury: 2601
+Liability for Negligence: 2602
+Liability for Pharmaceutical Products: 2603
+Liability for Property Damage: 2604
+Liability for Willful Misconduct: 2605
+Liability, Claims: 2606
+Liability, Cost Allocation: 2607
+Liability, Future Liabilities: 2608
+Liability, Investigation: 2609
+Liability, Release: 2610
+Liability, Scope of Release: 2611
+License & Transfer Obligations: 2612
+License & Usage Rights: 2613
+License Compliance: 2614
+License Continuation: 2615
+License Continuity: 2616
+License Control: 2617
+License Downgrade: 2618
+License Duration: 2619
+License Duration Ambiguity: 2620
+License Exclusivity: 2621
+License Extension: 2622
+License Fee Calculation: 2623
+License Grant: 2624
+License Limitation: 2625
+License Limitations: 2626
+License Restriction: 2627
+License Restrictions: 2628
+License Rights: 2629
+License Scope: 2630
+License Scope Ambiguity: 2631
+License Scope Limitation: 2632
+License Term: 2633
+License Termination: 2634
+License Terms: 2635
+License Transfer Restriction: 2636
+Licensing: 2637
+Licensing & Agreement: 2638
+Licensing & Approval Requirement: 2639
+Licensing & Assignment: 2640
+Licensing & Commercial Rights: 2641
+Licensing & Commercialization: 2642
+Licensing & Compensation: 2643
+Licensing & Compliance: 2644
+Licensing & Content Distribution: 2645
+Licensing & Contractual: 2646
+Licensing & Data Usage: 2647
+Licensing & Development Rights: 2648
+Licensing & Distribution: 2649
+Licensing & Distribution Limitations: 2650
+Licensing & Endorsement: 2651
+Licensing & Exclusivity: 2652
+Licensing & IP: 2653
+Licensing & IP Rights: 2654
+Licensing & Intellectual Property: 2655
+Licensing & Market Exclusivity: 2656
+Licensing & Ownership: 2657
+Licensing & Patent Rights: 2658
+Licensing & Patent Use: 2659
+Licensing & Promotion Rights: 2660
+Licensing & Rights: 2661
+Licensing & Service Limitation: 2662
+Licensing & Sub-Licensing: 2663
+Licensing & Sublicensing: 2664
+Licensing & Termination: 2665
+Licensing & Transfer Restrictions: 2666
+Licensing & Usage: 2667
+Licensing & Usage Restrictions: 2668
+Licensing & Usage Rights: 2669
+Licensing & Vendor Agreement: 2670
+Licensing Agreement: 2671
+Licensing Compliance: 2672
+Licensing Conditions: 2673
+Licensing Contingencies: 2674
+Licensing Duration: 2675
+Licensing Fees: 2676
+Licensing Flexibility: 2677
+Licensing Limitation: 2678
+Licensing Obligation: 2679
+Licensing Obligations: 2680
+Licensing Restriction: 2681
+Licensing Restrictions: 2682
+Licensing Rights: 2683
+Licensing Scope: 2684
+Licensing Terms: 2685
+Licensing Transfer: 2686
+Licensing and Distribution: 2687
+Licensing and Intellectual Property: 2688
+Licensing and Permissions: 2689
+Licensing and Usage: 2690
+Licensing and Usage Rights: 2691
+Licensing, Exclusivity: 2692
+Licensing?: 2693
+Licensings: 2694
+Limitation of Liability: 2695
+Limitation of Liability / Indemnification: 2696
+Limitation of Remedies: 2697
+Limitation of Warranties: 2698
+Limitation of Warranty: 2699
+Limitation of Warranty Rights: 2700
+Limitation on Audit Requests: 2701
+Limitation, Exclusion: 2702
+Limitations of Liability: 2703
+Limitations on License and Transfer Rights: 2704
+Limited Accountability: 2705
+Limited Assignability: 2706
+Limited Assignment Exception: 2707
+Limited Assignment Flexibility: 2708
+Limited Assignment Rights: 2709
+Limited Audit Frequency: 2710
+Limited Audit Scope: 2711
+Limited Contract Continuity: 2712
+Limited Decision Window: 2713
+Limited Defense Rights: 2714
+Limited Dispute Resolution Options: 2715
+Limited Early Termination Options: 2716
+Limited Endorsement Usage: 2717
+Limited Exception Clause: 2718
+Limited Exceptions to Liability Cap: 2719
+Limited Exercise Window: 2720
+Limited Exit Option: 2721
+Limited Extension: 2722
+Limited Financial Protections: 2723
+Limited Flexibility: 2724
+Limited Global Rights: 2725
+Limited Hiring Flexibility: 2726
+Limited IP Licensing: 2727
+Limited IP Rights: 2728
+Limited Indemnification Scope: 2729
+Limited Interest: 2730
+Limited Internal Use Rights: 2731
+Limited Legal Defenses: 2732
+Limited Legal Recourse: 2733
+Limited Legal Remedies: 2734
+Limited Liability: 2735
+Limited Liability Cap: 2736
+Limited Liability Exceptions: 2737
+Limited Liability Exclusions: 2738
+Limited Liability Exposure: 2739
+Limited Liability Protection: 2740
+Limited Liability for Indirect Damages: 2741
+Limited Liability for Minor Negligence: 2742
+Limited Liability for Misstatements: 2743
+Limited Liability for Negligence: 2744
+Limited Market Flexibility: 2745
+Limited Non-Commercial Use: 2746
+Limited Purchase Rights: 2747
+Limited Quality Assurance: 2748
+Limited Remedies: 2749
+Limited Remedies for Breach: 2750
+Limited Remedy: 2751
+Limited Remedy for Warranty Breach: 2752
+Limited Reproduction Rights: 2753
+Limited Scope Audit: 2754
+Limited Scope of Restriction: 2755
+Limited Scope of Use: 2756
+Limited Source Code Access: 2757
+Limited Sublicensing: 2758
+Limited Sublicensing Exception: 2759
+Limited Termination Rights: 2760
+Limited Timing Restriction: 2761
+Limited Transfer Rights: 2762
+Limited Transferability of Payment Rights: 2763
+Limited Usage Rights: 2764
+Limited Usage Scope: 2765
+Limited Warranty Liability: 2766
+Limited Warranty Scope: 2767
+Limited to Specific Indications: 2768
+Limited-Use License: 2769
+Linked Agreement Requirement: 2770
+Linking Restriction: 2771
+Linking Rights: 2772
+Liquidated Damages: 2773
+Liquidated Damages Provision: 2774
+Liquidation & Reorganization Constraints: 2775
+Liquidity & Exit: 2776
+Liquidity & Resale: 2777
+Litigation: 2778
+Litigation & Arbitration: 2779
+Litigation & Defense Obligation: 2780
+Litigation Ambiguity: 2781
+Litigation Control: 2782
+Litigation Cost: 2783
+Litigation Exposure: 2784
+Litigation Inconvenience: 2785
+Litigation Limitation: 2786
+Litigation Participation: 2787
+Local Advertising Restriction: 2788
+Local Law Compliance: 2789
+Location: 2790
+Location Determination Process: 2791
+Location Restriction: 2792
+Location-Specific Terms: 2793
+Logistics: 2794
+Logistics & Returns: 2795
+Logistics Control: 2796
+Long Notice Period: 2797
+Long-Term: 2798
+Long-Term Commitment: 2799
+Long-Term Control Loss: 2800
+Long-Term Data Retention: 2801
+Long-Term Disruption Termination: 2802
+Long-Term Exit: 2803
+Long-Term Financial Burden: 2804
+Long-Term Financial Liability: 2805
+Long-Term IP Control: 2806
+Long-Term Insurance Obligation: 2807
+Long-Term Lock-In: 2808
+Long-Term Management: 2809
+Long-Term Obligation: 2810
+Long-Term Payment Obligation: 2811
+Long-Term Planning: 2812
+Long-Term Restriction: 2813
+Long-Term Restrictive Covenant: 2814
+Long-Term Support Commitment: 2815
+Long-term Financial Obligation: 2816
+Loophole in Restriction: 2817
+Loss of Attribution and Integrity Rights: 2818
+Loss of Exclusive Opportunity: 2819
+Loss of Exclusive Rights: 2820
+Loss of Exclusivity: 2821
+Loss of IP Control: 2822
+Loss of IP Rights: 2823
+Loss of Legal Control: 2824
+Loss of Potential Compensation: 2825
+Loss of Profit: 2826
+Loss of Rights to Improvements: 2827
+Low Compensation Cap: 2828
+M&A / Competitive Restriction: 2829
+M&A Flexibility: 2830
+Maintenance: 2831
+Maintenance Control by Third-Party: 2832
+Maintenance Oversight: 2833
+Management Control Change: 2834
+Mandatory Audited Statements: 2835
+Mandatory Buyback: 2836
+Mandatory Data Transfer: 2837
+Mandatory Deletion & Return Obligation: 2838
+Mandatory Legal Compliance: 2839
+Mandatory Liability: 2840
+Mandatory Liability Coverage: 2841
+Mandatory Purchase Obligation: 2842
+Mandatory Reemployment: 2843
+Mandatory Sale Timing: 2844
+Manual Verification: 2845
+Manufacturer Preference: 2846
+Manufacturing: 2847
+Manufacturing & IP Compliance: 2848
+Manufacturing & Supply: 2849
+Manufacturing Continuation: 2850
+Manufacturing Control: 2851
+Manufacturing Obligation: 2852
+Manufacturing Obligations: 2853
+Manufacturing Quality: 2854
+Manufacturing Responsibility: 2855
+Manufacturing Restriction: 2856
+Manufacturing Restrictions: 2857
+Manufacturing Rights: 2858
+Market: 2859
+Market & Competitive: 2860
+Market Competition: 2861
+Market Competition Restriction: 2862
+Market Control: 2863
+Market Demand: 2864
+Market Dependency: 2865
+Market Distribution Control: 2866
+Market Entry Limitation: 2867
+Market Exclusivity: 2868
+Market Exclusivity & Competition: 2869
+Market Exclusivity Limitation: 2870
+Market Exclusivitys: 2871
+Market Expansion: 2872
+Market Expansion Limitation: 2873
+Market Limitation: 2874
+Market Manipulation: 2875
+Market Monopolization: 2876
+Market Monopoly: 2877
+Market Obligation: 2878
+Market Price Disclosure: 2879
+Market Restriction: 2880
+Market Restriction / Competition Law: 2881
+Market Rights: 2882
+Market Segmentation: 2883
+Market Volatility: 2884
+Market-Specific Termination: 2885
+Marketing: 2886
+Marketing & Advertising: 2887
+Marketing & Approval: 2888
+Marketing & Branding Rights: 2889
+Marketing & Distribution: 2890
+Marketing & Distribution Rights: 2891
+Marketing & Endorsement Rights: 2892
+Marketing & Operational: 2893
+Marketing & Promotion Rights: 2894
+Marketing & Promotional Rights: 2895
+Marketing & Sales: 2896
+Marketing & Sponsorship: 2897
+Marketing & Sublicensing Restrictions: 2898
+Marketing Budget: 2899
+Marketing Commitment: 2900
+Marketing Compliance: 2901
+Marketing Content Usage: 2902
+Marketing Expense Obligation: 2903
+Marketing Guarantee: 2904
+Marketing Liability: 2905
+Marketing Obligation: 2906
+Marketing Obligations: 2907
+Marketing Performance: 2908
+Marketing Responsibility: 2909
+Marketing Restriction: 2910
+Marketing Rights: 2911
+Marketing Rights Transfer: 2912
+Marketing and Distribution: 2913
+Marketing, Exclusivity: 2914
+Material Disposal Confirmation: 2915
+Material Handling: 2916
+Material Inspection: 2917
+Media Duration: 2918
+Media Production: 2919
+Media Usage Rights: 2920
+Medical Liability Disclaimer: 2921
+Medical Use Disclaimer: 2922
+Merger & Acquisition Impact: 2923
+Mergers & Acquisition: 2924
+Mergers & Acquisitions: 2925
+Minimum Coverage Requirement: 2926
+Minimum Payment Obligation: 2927
+Minimum Purchase Obligation: 2928
+Minor Equity Investment Exception: 2929
+Misconduct: 2930
+Misrepresentation: 2931
+Misrepresentation and Liability: 2932
+Misrepresentations: 2933
+Misuse Exception: 2934
+Misuse Liability: 2935
+Mitigation Obligation: 2936
+Moderate Threshold Dependency: 2937
+Modification: 2938
+Modification Restrictions: 2939
+Modification Rights: 2940
+Modification of Rights: 2941
+Monetary Cap on Damages: 2942
+Monetary Cap on Liability: 2943
+Monetary Recovery Limitation: 2944
+Monitoring & Compliance: 2945
+Monopolistic: 2946
+Moral Rights Waiver: 2947
+Multi-Level Assignability: 2948
+Multi-Party Obligation: 2949
+Multinational Coverage: 2950
+Mutual Agreement Obligation: 2951
+Mutual Allocation: 2952
+Mutual Assignment Control: 2953
+Mutual IP Control: 2954
+Mutual IP Protection: 2955
+Mutual Indemnification: 2956
+Mutual Non-Competition: 2957
+Mutual Non-Disparagement Obligation: 2958
+Mutual Non-Solicitation Clause: 2959
+Mutual Notification Requirement: 2960
+Mutual Obligation: 2961
+Mutual Responsibility: 2962
+Mutual Termination: 2963
+Name & Likeness Rights: 2964
+Naming Rights Conflict: 2965
+Narrow Business Restriction: 2966
+Narrow Liability Scope: 2967
+Natural Disaster: 2968
+Negligence: 2969
+Negligence & Conduct Liability: 2970
+Negligence & Liability: 2971
+Negligence & Misconduct: 2972
+Negligence Liability: 2973
+Negligence Liability Waiver: 2974
+Negligence Protection: 2975
+Negligence Waiver: 2976
+Negligence and Misconduct: 2977
+Negligence-Based Liability: 2978
+Negligence/Misconduct: 2979
+Negotiability: 2980
+Negotiation: 2981
+Negotiation & Compliance: 2982
+Negotiation & Exclusivitys: 2983
+Negotiation & Licensing Rights: 2984
+Negotiation & Uncertainty: 2985
+Negotiation Dependency: 2986
+Negotiation Obligation: 2987
+Negotiation Rights: 2988
+Negotiation Timeline: 2989
+Negotiation Timeline Uncertainty: 2990
+Negotiation Timelines and Uncertainty: 2991
+Negotiations: 2992
+Network Usage Restriction: 2993
+No Arbitration Clause: 2994
+No Business Loss Compensation: 2995
+No Duty to Account for IP Usage: 2996
+No Financial Benefit for Transferor: 2997
+No Guarantee of Quality: 2998
+No Implied Warranties: 2999
+No Injunctive Relief: 3000
+No Liability on Defects: 3001
+No Medical Safety Guarantee: 3002
+No Product Quality Assurance: 3003
+No Reimbursement Clause: 3004
+No Remedy Option: 3005
+No Termination Compensation: 3006
+No Usage Limitations: 3007
+No Warranty: 3008
+No Warranty Disclaimer: 3009
+No Warranty for Functionality: 3010
+No Warranty for Usefulness: 3011
+No-Warranty Product: 3012
+Non-Circumvention: 3013
+Non-Commercial Activity: 3014
+Non-Commercial Licensing: 3015
+Non-Compete: 3016
+Non-Compete & Competitive Restrictions: 3017
+Non-Compete & Conflict of Interest: 3018
+Non-Compete & Exclusivity: 3019
+Non-Compete & Market Protection: 3020
+Non-Compete & Market Restrictions: 3021
+Non-Compete & Restrictive Covenant: 3022
+Non-Compete & Restrictive Covenants: 3023
+Non-Compete Agreement: 3024
+Non-Compete Clause: 3025
+Non-Compete Definition: 3026
+Non-Compete Enforcement: 3027
+Non-Compete Exception: 3028
+Non-Compete Expiry: 3029
+Non-Compete Obligation: 3030
+Non-Compete Obligations: 3031
+Non-Compete Post-Termination: 3032
+Non-Compete Restriction: 3033
+Non-Compete Restrictions: 3034
+Non-Compete Terms: 3035
+Non-Compete Violation: 3036
+Non-Competition: 3037
+Non-Competition & Revenue Sharing: 3038
+Non-Competition Clause: 3039
+Non-Compliance: 3040
+Non-Compliance Liability: 3041
+Non-Compliance Penalties: 3042
+Non-Discrimination: 3043
+Non-Disparagement: 3044
+Non-Disparagement & Affiliates Coordination: 3045
+Non-Disparagement & Confidentiality: 3046
+Non-Disparagement and Confidentiality: 3047
+Non-Exclusive IP Licensing: 3048
+Non-Exclusive Licensing: 3049
+Non-Hiring Restriction: 3050
+Non-Interference Obligation: 3051
+Non-Negotiable Payment Terms: 3052
+Non-Qualifying Purchases: 3053
+Non-Renewal Consequences: 3054
+Non-Renewal Notice: 3055
+Non-Revocable Licensing: 3056
+Non-Solicitation: 3057
+Non-Solicitation & Business Protection: 3058
+Non-Solicitation & Data Usage Restriction: 3059
+Non-Solicitation & Employment: 3060
+Non-Solicitation & Trade Secret: 3061
+Non-Solicitation Clause: 3062
+Non-Solicitation Exception: 3063
+Non-Solicitation Obligation: 3064
+Non-Solicitation Obligations: 3065
+Non-Solicitation Restriction: 3066
+Non-Solicitation of Employees: 3067
+Non-Transferability: 3068
+Non-Transferability Restriction: 3069
+Non-compete & Confidentiality: 3070
+Non-compliance: 3071
+Non-revocable Licensing: 3072
+Nonexclusive Software Rights: 3073
+Nonrefundable Payment: 3074
+Notice & Compliance: 3075
+Notice & Obligations: 3076
+Notice & Termination: 3077
+Notice Compliance: 3078
+Notice Obligation: 3079
+Notice Period: 3080
+Notice Period Compliance: 3081
+Notice Period Requirement: 3082
+Notice Period for Rate Changes: 3083
+Notice Requirement: 3084
+Notice Requirement for Indemnification: 3085
+Notice Requirements: 3086
+Notice Timing: 3087
+Notice and Defense: 3088
+Notification: 3089
+Notification & Compliance: 3090
+Notification & Consent: 3091
+Notification & Cooperation: 3092
+Notification & Defense Rights: 3093
+Notification Compliance: 3094
+Notification Obligation: 3095
+Notification Obligations: 3096
+Notification Requirement: 3097
+Notification Requirements: 3098
+Notification and Communication: 3099
+Notification and Documentation: 3100
+Obligation Assumption: 3101
+Obligation Continuity: 3102
+Obligation Expiry: 3103
+Obligation Termination: 3104
+Obligation Transfer: 3105
+Obligation to Execute Additional Documents: 3106
+Off-Site Audit Requirement: 3107
+Offer Expiry: 3108
+Offer Fulfillment: 3109
+Offer Modification: 3110
+Office Space Allocation: 3111
+On-Screen Inventory Limitation: 3112
+One-Sided Obligation: 3113
+One-Sided Transfer: 3114
+Ongoing Financial Burden: 3115
+Ongoing Financial Commitment: 3116
+Ongoing Financial Obligation: 3117
+Ongoing Liability: 3118
+Ongoing Litigation: 3119
+Ongoing Obligation: 3120
+Ongoing Support Ownership: 3121
+Online Sales: 3122
+Online Sales Restriction: 3123
+Open-Ended Duration: 3124
+Open-Ended Obligation: 3125
+Opera: 3126
+Operational: 3127
+Operational & Continuity: 3128
+Operational & Financial: 3129
+Operational Ambiguity: 3130
+Operational Commitment: 3131
+Operational Compliance: 3132
+Operational Constraint: 3133
+Operational Constraints: 3134
+Operational Continuity: 3135
+Operational Control: 3136
+Operational Disruption: 3137
+Operational Disruption / Compliance: 3138
+Operational Efficiency: 3139
+Operational Flexibility: 3140
+Operational Handover: 3141
+Operational Impact: 3142
+Operational Interference: 3143
+Operational Interference Minimization: 3144
+Operational Liability: 3145
+Operational Limitation: 3146
+Operational Limitations: 3147
+Operational Obligation: 3148
+Operational Oversight: 3149
+Operational Performance: 3150
+Operational Requirement: 3151
+Operational Responsibility: 3152
+Operational Restriction: 3153
+Operational Restriction & Business Dependency: 3154
+Operational Review: 3155
+Operational Support: 3156
+Operational Terms: 3157
+Operational Transition: 3158
+Operational Transparency: 3159
+Operational Uncertainty: 3160
+Operational?: 3161
+Opportunity to Rectify: 3162
+Optional Legal Responsibility: 3163
+Optional Third-Party Agreement Takeover: 3164
+Oral Modifications: 3165
+Order Commitment: 3166
+Order Fulfillment: 3167
+Order Increment Restriction: 3168
+Order Management: 3169
+Order Processing: 3170
+Order Quantity Restriction: 3171
+Order Requirement: 3172
+Order Suspension: 3173
+Organizational Reference: 3174
+Outdated Agreement: 3175
+Outsourcing: 3176
+Outsourcing Flexibility: 3177
+Outstanding Orders: 3178
+Outstanding Payment Obligation: 3179
+Over-Nomination Restriction: 3180
+Over-Reliance on One Supplier: 3181
+Over-Supply Limitation: 3182
+Overbroad Audit Rights: 3183
+Overbroad IP Restriction: 3184
+Overly Broad IP Grant: 3185
+Overly Broad Restriction: 3186
+Overproduction Restriction: 3187
+Overreach: 3188
+Overreach & Data Privacy: 3189
+Ownership: 3190
+Ownership & Control: 3191
+Ownership & Control Restrictions: 3192
+Ownership & Financial: 3193
+Ownership & IP: 3194
+Ownership & IP Assignment: 3195
+Ownership & IP Rights: 3196
+Ownership & Patent: 3197
+Ownership & Succession: 3198
+Ownership & Title: 3199
+Ownership Change: 3200
+Ownership Change Restriction: 3201
+Ownership Conflict: 3202
+Ownership Control: 3203
+Ownership Dilution: 3204
+Ownership Flexibility: 3205
+Ownership Requirement: 3206
+Ownership Restriction: 3207
+Ownership Restrictions: 3208
+Ownership Rights: 3209
+Ownership Stability: 3210
+Ownership Timing Restriction: 3211
+Ownership Transfer: 3212
+Ownership Transfer Obligation: 3213
+Ownership Uncertainty: 3214
+Ownership Warranty: 3215
+Ownership and Assignment: 3216
+Ownership and Control: 3217
+Ownership and IP: 3218
+Ownership of Deliverables: 3219
+Ownership of Derivative Works: 3220
+Ownership of Innovations: 3221
+Ownership of Inventions: 3222
+Ownership of Joint IP: 3223
+Ownership of Licensed Equipment: 3224
+Ownership of Marketing Materials: 3225
+Ownership of Product Materials: 3226
+Ownership of Records: 3227
+Ownership of Work Product: 3228
+Ownership-Based Termination: 3229
+Parent Company Override: 3230
+Partial Termination: 3231
+Participation Requirements: 3232
+Participation Rights: 3233
+Party Identification: 3234
+Passenger Safety: 3235
+Past Practices Not Binding: 3236
+Patent: 3237
+Patent & IP Restrictions: 3238
+Patent & Technology Use: 3239
+Patent Assignment: 3240
+Patent Control: 3241
+Patent Control Disparity: 3242
+Patent Definition: 3243
+Patent Dependency: 3244
+Patent Enforcement: 3245
+Patent Expiry: 3246
+Patent Filing: 3247
+Patent Filing & Assignment: 3248
+Patent Filing Obligations: 3249
+Patent Infringement: 3250
+Patent Jurisdiction: 3251
+Patent Law: 3252
+Patent Licensing: 3253
+Patent Maintenance: 3254
+Patent Management: 3255
+Patent Ownership: 3256
+Patent Protection: 3257
+Patent Rights: 3258
+Patent Rights Allocation: 3259
+Patent Rights Transfer: 3260
+Patent Scope: 3261
+Patent Usage Rights: 3262
+Payment: 3263
+Payment & Capacity Compliance: 3264
+Payment & Compliance: 3265
+Payment & Settlement: 3266
+Payment Allocation: 3267
+Payment Assignment: 3268
+Payment Assurance: 3269
+Payment Compliance: 3270
+Payment Contingency: 3271
+Payment Delay: 3272
+Payment Discrepancy: 3273
+Payment Flexibility: 3274
+Payment Liability: 3275
+Payment Limitation: 3276
+Payment Methods Flexibility: 3277
+Payment Model Flexibility: 3278
+Payment Obligation: 3279
+Payment Obligation Despite Force Majeure: 3280
+Payment Obligation Exception: 3281
+Payment Obligations: 3282
+Payment Processing: 3283
+Payment Processing Obligations: 3284
+Payment Processing Scope: 3285
+Payment Protection: 3286
+Payment Reduction Limitation: 3287
+Payment Restriction: 3288
+Payment Rights Transfer: 3289
+Payment Schedule: 3290
+Payment Scope: 3291
+Payment Security: 3292
+Payment Structure: 3293
+Payment Structure Obligation: 3294
+Payment Terms: 3295
+Payment Terms Ambiguity: 3296
+Payment Terms Flexibility: 3297
+Payment Timeline: 3298
+Payment Timing: 3299
+Payment Transfer: 3300
+Payment Uncertainty: 3301
+Payment Verification: 3302
+Payment-Contingent Licensing: 3303
+Penalty & Performance Obligations: 3304
+Penalty Clause: 3305
+Penalty for Non-Performance: 3306
+Penalty for Revenue Understatement: 3307
+Performance: 3308
+Performance & Quality Assurance: 3309
+Performance & Reliability: 3310
+Performance & Termination: 3311
+Performance & Warranty Obligations: 3312
+Performance Accountability: 3313
+Performance Ambiguity: 3314
+Performance Contingency: 3315
+Performance Dependency: 3316
+Performance Expectation: 3317
+Performance Failure: 3318
+Performance Guarantee: 3319
+Performance Issues: 3320
+Performance Monitoring: 3321
+Performance Obligation: 3322
+Performance Obligations: 3323
+Performance Penalty: 3324
+Performance Standards: 3325
+Performance Uncertainty: 3326
+Performance Warranty: 3327
+Performance-Based Exclusivity: 3328
+Performance-Based Expiry: 3329
+Performance-Based Fees: 3330
+Performance-Based Obligation: 3331
+Performance-Based Term: 3332
+Performance-Based Termination: 3333
+Permanent Loss of Rights: 3334
+Permitted Activities: 3335
+Permitted Assignment: 3336
+Permitted Investment: 3337
+Perpetual IP Loss: 3338
+Perpetual IP Transfer: 3339
+Perpetual License: 3340
+Perpetual License Grant: 3341
+Perpetual Licensing: 3342
+Perpetual Licensing & Contractual Uncertainty: 3343
+Perpetual Licensing Obligation: 3344
+Perpetual Rights Assignment: 3345
+Perpetual Trademark Restriction: 3346
+Perpetual and Irrevocable Licensing: 3347
+Personal Branding & Career Limitation: 3348
+Personal Injury: 3349
+Personal Injury Exception: 3350
+Personal Injury Liability: 3351
+Pharmacovigilance: 3352
+Platform Limitation: 3353
+Poaching: 3354
+Poaching Restriction: 3355
+Policy Modification: 3356
+Policy Modification Notice: 3357
+Policy Renewal Compliance: 3358
+Policy Structuring Flexibility: 3359
+Policy Trailer Content: 3360
+Policy Trailer Purpose: 3361
+Policy Trailer Timing: 3362
+Post-Agreement Obligations: 3363
+Post-Contract IP Claim: 3364
+Post-Contract Liability: 3365
+Post-Contract Limitation: 3366
+Post-Contract Restrictions: 3367
+Post-Contractual: 3368
+Post-Employment Restriction: 3369
+Post-Engagement IP Ownership: 3370
+Post-Exclusivity Restrictions: 3371
+Post-Sale Defect Liability: 3372
+Post-Term Business Rights: 3373
+Post-Term Competition Restriction: 3374
+Post-Term Competitive Restriction: 3375
+Post-Term Licensing Obligation: 3376
+Post-Term Non-Compete: 3377
+Post-Term Obligation: 3378
+Post-Term Obligations: 3379
+Post-Term Payment Obligation: 3380
+Post-Term Publicity Rights: 3381
+Post-Term Restriction: 3382
+Post-Term Restriction on Contesting IP: 3383
+Post-Term Restrictions: 3384
+Post-Term Usage Rights: 3385
+Post-Termination: 3386
+Post-Termination Business Control: 3387
+Post-Termination Compliance: 3388
+Post-Termination Coverage: 3389
+Post-Termination Employment Restriction: 3390
+Post-Termination Financial Clauses: 3391
+Post-Termination IP: 3392
+Post-Termination IP Rights: 3393
+Post-Termination IP Use: 3394
+Post-Termination Intellectual Property: 3395
+Post-Termination Liability: 3396
+Post-Termination License Rights: 3397
+Post-Termination License Uncertainty: 3398
+Post-Termination Licensing Obligation: 3399
+Post-Termination Obligation: 3400
+Post-Termination Obligations: 3401
+Post-Termination Payment & Compliance: 3402
+Post-Termination Payment Obligation: 3403
+Post-Termination Restriction: 3404
+Post-Termination Restrictions: 3405
+Post-Termination Restrictive Covenant: 3406
+Post-Termination Rights: 3407
+Post-Termination Rights and Limitations: 3408
+Post-Termination Sales: 3409
+Post-Termination Sales Obligation: 3410
+Post-Termination Services: 3411
+Post-Terminations: 3412
+Post-Transfer Liabilities: 3413
+Post-Warranty Support: 3414
+Potential Additional Costs: 3415
+Potential Ambiguity: 3416
+Potential Consent Dispute: 3417
+Potential Dispute: 3418
+Potential Excessive Liability: 3419
+Potential IP Exploitation: 3420
+Potential Infringement: 3421
+Potential Legal Conflict: 3422
+Potential Litigation: 3423
+Potential Loss of Opportunity: 3424
+Potential Ownership Ambiguity: 3425
+Potential Quality Issues: 3426
+Potential for Legal Challenge: 3427
+Power of Attorney: 3428
+Pre-Approved Sublicensee: 3429
+Pre-Existing Agreements: 3430
+Pre-Existing Employment Discussion: 3431
+Pre-Existing Relationship Exception: 3432
+Pre-Termination Liability: 3433
+Predictive Analytics: 3434
+Preemptive Right: 3435
+Preferential Negotiation: 3436
+Premium Access Clause: 3437
+Preservation of Prior Rights: 3438
+Price: 3439
+Price Adjustment: 3440
+Price Control: 3441
+Price Escalation: 3442
+Price Protection: 3443
+Price Volatility: 3444
+Pricing: 3445
+Pricing & Competitive: 3446
+Pricing & Contract Modification: 3447
+Pricing & Discount Volatility: 3448
+Pricing & Fair Competition: 3449
+Pricing & Fair Trade: 3450
+Pricing & Fair Trade Compliance: 3451
+Pricing & Fees: 3452
+Pricing & Financial: 3453
+Pricing & Promotion: 3454
+Pricing & Service Terms: 3455
+Pricing & Tariffs: 3456
+Pricing Adjustment: 3457
+Pricing Agreement: 3458
+Pricing Changes: 3459
+Pricing Commitment: 3460
+Pricing Compliance: 3461
+Pricing Control: 3462
+Pricing Discrepancy: 3463
+Pricing Fairness: 3464
+Pricing Flexibility: 3465
+Pricing Mechanism: 3466
+Pricing Parity & Competitive: 3467
+Pricing Restriction: 3468
+Pricing Stability: 3469
+Pricing Terms: 3470
+Pricing Uncertainty: 3471
+Pricing and Fair Competition: 3472
+Pricing and Royalty Manipulation: 3473
+Prior Sales Exception: 3474
+Priority Coverage: 3475
+Privacy: 3476
+Privacy & Surveillance: 3477
+Privacy Compliance: 3478
+Privacy and Publicity Rights: 3479
+Procedural: 3480
+Procedural Compliance: 3481
+Procedural Obligation: 3482
+Procedural Requirement: 3483
+Procedural Uncertainty: 3484
+Processing Dependency: 3485
+Procurement: 3486
+Product: 3487
+Product Acceptance: 3488
+Product Compliance: 3489
+Product Compliance & Liability: 3490
+Product Defect Handling: 3491
+Product Development: 3492
+Product Development Commitment: 3493
+Product Development Obligation: 3494
+Product Development Restriction: 3495
+Product Distribution: 3496
+Product Exclusion: 3497
+Product Guarantee: 3498
+Product Integrity: 3499
+Product Liability: 3500
+Product Liability Exclusion: 3501
+Product Liability?: 3502
+Product Limitation: 3503
+Product Modification Restriction: 3504
+Product Ownership: 3505
+Product Performance: 3506
+Product Quality: 3507
+Product Quality & Compliance: 3508
+Product Quality & Defect Resolution: 3509
+Product Quality & Liability: 3510
+Product Quality Assurance: 3511
+Product Quality Variability: 3512
+Product Quality and Recall: 3513
+Product Recall: 3514
+Product Recall and Compliance: 3515
+Product Reliability: 3516
+Product Reliability & Consumer Protection: 3517
+Product Restrictions: 3518
+Product Return: 3519
+Product Return & Modification: 3520
+Product Return Policy: 3521
+Product Safety: 3522
+Product Sales & Distribution: 3523
+Product Scope: 3524
+Product Scopes: 3525
+Product Selection: 3526
+Product Shelf-Life Requirement: 3527
+Product Suitability: 3528
+Product Supply: 3529
+Product Update: 3530
+Product Usability: 3531
+Product Use: 3532
+Product Viability: 3533
+Product Warranty: 3534
+Product Warranty & Remedies: 3535
+Product Warranty Obligation: 3536
+Product Withdrawal: 3537
+Product/Service Liability: 3538
+Production Threshold: 3539
+Professional Conduct: 3540
+Professional Liability: 3541
+Professional Services Liability: 3542
+Profit Margin: 3543
+Profit Participation: 3544
+Project Delay & Dependency: 3545
+Project Delays: 3546
+Project Delivery: 3547
+Project Management: 3548
+Project Scope: 3549
+Prolonged License Continuation: 3550
+Promotion & Marketing: 3551
+Promotional: 3552
+Promotional Activity for Theatres: 3553
+Promotional Obligation: 3554
+Promotional Obligations: 3555
+Promotional Requirement: 3556
+Promotional Requirements: 3557
+Promotional Restriction: 3558
+Promotional Time Restriction: 3559
+Promotional Use Limitation: 3560
+Proof of Insurance: 3561
+Proof of Insurance Requirement: 3562
+Proof of Referral: 3563
+Property: 3564
+Property & Personal Injury Liability: 3565
+Property Compliance: 3566
+Property Damage: 3567
+Property Insurance: 3568
+Property Liability: 3569
+Property Loss: 3570
+Property Purchase: 3571
+Property Transfer: 3572
+Proportional Liability: 3573
+Public Disclosure: 3574
+Public Distribution: 3575
+Public Image & Morality: 3576
+Public Relations: 3577
+Public Relations Control: 3578
+Public Sector Inclusion: 3579
+Publication Limitations: 3580
+Publicity: 3581
+Publicity & Image Rights: 3582
+Publicity & Personal Rights Restriction: 3583
+Publicity & Privacy: 3584
+Publicity Rights: 3585
+Publicity and Announcements: 3586
+Publicity and Image Rights: 3587
+Purchase Commitment: 3588
+Purchase Limitation: 3589
+Purchase Obligation: 3590
+Purchase Obligations: 3591
+Purchase Option: 3592
+Purchase Order Limitation: 3593
+Purchase Quantities: 3594
+Purchase Requirements: 3595
+Purchase Rights: 3596
+Purpose-Specific Limitation: 3597
+Quality Assurance: 3598
+Quality Compliance: 3599
+Quality Control: 3600
+Quality Control & Oversight: 3601
+Quality Control Review: 3602
+Quality Control?: 3603
+Quality Deviation Agreement: 3604
+Quality Specification: 3605
+Quality Warranty: 3606
+R&D Rights: 3607
+ROFR Timeframe: 3608
+RSU Acceleration: 3609
+Rate Change Limitation: 3610
+Re-Audit Condition: 3611
+Re-licensing: 3612
+Reciprocal Audit Rights: 3613
+Reciprocal IP Licensing: 3614
+Reciprocal Indemnity: 3615
+Reciprocal License: 3616
+Reciprocal Obligation: 3617
+Reciprocity: 3618
+Record Access Rights: 3619
+Record Keeping: 3620
+Record Keeping & Access: 3621
+Record Ownership: 3622
+Record Retention: 3623
+Record Retention Obligation: 3624
+Record Retention Requirement: 3625
+Record-Keeping: 3626
+Record-Keeping Compliance: 3627
+Record-Keeping Obligation: 3628
+Record-Keeping Obligations: 3629
+Record-Keeping Requirement: 3630
+Record-Keeping Requirements: 3631
+Recordkeeping: 3632
+Recurring Financial Obligation: 3633
+Recurring Performance Penalty: 3634
+Redacted Clause: 3635
+Redacted Content: 3636
+Redistribution: 3637
+Redistribution Restriction: 3638
+Redistribution of Funds: 3639
+Reduced Market Rights: 3640
+Reference Clause: 3641
+Reference to External Agreement: 3642
+Referential Ambiguity: 3643
+Referral Commission Obligation: 3644
+Referral Fee: 3645
+Refund: 3646
+Refund & Delivery Obligations: 3647
+Refund Obligation: 3648
+Regional Distribution Limitations: 3649
+Regional Exclusivity: 3650
+Regional Legal Compliance: 3651
+Regional Licensing Restriction: 3652
+Regional Limitation of Liability: 3653
+Regional Sales Exclusivity: 3654
+Regulatory: 3655
+Regulatory & Compliance: 3656
+Regulatory & IP: 3657
+Regulatory & Legal: 3658
+Regulatory & Quality Breach: 3659
+Regulatory Adaptability: 3660
+Regulatory Asset Transfer: 3661
+Regulatory Audit: 3662
+Regulatory Compliance: 3663
+Regulatory Compliance & Disclosure: 3664
+Regulatory Compliance & Intellectual Property: 3665
+Regulatory Compliance & Legals: 3666
+Regulatory Compliance / Asset Retention: 3667
+Regulatory Compliance?: 3668
+Regulatory Constraint: 3669
+Regulatory Dependency: 3670
+Regulatory Filings: 3671
+Regulatory Filings Dependency: 3672
+Regulatory Inspection Rights: 3673
+Regulatory Loophole: 3674
+Regulatory Matters: 3675
+Regulatory Oversight: 3676
+Regulatory Reporting: 3677
+Regulatory Reporting Requirement: 3678
+Regulatory and Compliance: 3679
+Reimbursement: 3680
+Relationship: 3681
+Relationship Definition: 3682
+Relationship Exclusivity: 3683
+Relationship of Parties: 3684
+Reliability: 3685
+Reliance on Information: 3686
+Reliance on Representations: 3687
+Reliance on Technical Information: 3688
+Reliance on Verbal Representations: 3689
+Relocation Flexibility: 3690
+Remedial Obligation: 3691
+Remediation: 3692
+Remediation & Mitigation: 3693
+Remediation Obligation: 3694
+Remedies & Limitation of Liability: 3695
+Remedies & Warranty: 3696
+Remedies for Breach: 3697
+Remedy Clause: 3698
+Remedy Limitation: 3699
+Remedy Restriction: 3700
+Remote Access Usage: 3701
+Removal of Implied Warrantie: 3702
+Renewal: 3703
+Renewal & Compliance: 3704
+Renewal & Continuation: 3705
+Renewal & Continuity: 3706
+Renewal & Extension: 3707
+Renewal & Negotiation: 3708
+Renewal & Termination: 3709
+Renewal Ambiguity: 3710
+Renewal Clause: 3711
+Renewal Condition: 3712
+Renewal Conditions: 3713
+Renewal Dependency: 3714
+Renewal Negotiation Constraints: 3715
+Renewal Notice Requirement: 3716
+Renewal Obligation: 3717
+Renewal Process: 3718
+Renewal Rights: 3719
+Renewal Terms: 3720
+Renewal and Extension: 3721
+Renewal and Term Extension: 3722
+Renewal and Termination: 3723
+Repair & Replacement: 3724
+Repair Obligations: 3725
+Repeated Default Penalty: 3726
+Replacement Rights: 3727
+Reporting: 3728
+Reporting & Compliance: 3729
+Reporting Compliance: 3730
+Reporting Delays: 3731
+Reporting Obligation: 3732
+Reporting Obligations: 3733
+Reporting Requirements: 3734
+Representation & Reliance: 3735
+Representation & Warranties: 3736
+Representation and Reliance: 3737
+Representations & Warranties: 3738
+Representations and Warranties: 3739
+Reproduction Rights: 3740
+Repurchase Rights: 3741
+Reputation: 3742
+Reputation & Branding Obligation: 3743
+Reputation & Defamation: 3744
+Reputation & Public Relations: 3745
+Reputation & Termination: 3746
+Reputation & Trademark Protection: 3747
+Reputation Damage: 3748
+Reputation Management: 3749
+Reputation Protection: 3750
+Reputational: 3751
+Resale & Sublicensing: 3752
+Resale Rights: 3753
+Resale Terms: 3754
+Research & Academic Use Rights: 3755
+Research & Collaboration: 3756
+Research & Development: 3757
+Research & Development Limitation: 3758
+Research & Development Restriction: 3759
+Research & Study Completion: 3760
+Research Access Rights: 3761
+Research Collaboration: 3762
+Research Use: 3763
+Research and Commercialization: 3764
+Research and Compliance: 3765
+Research and Development: 3766
+Reseller Agreement: 3767
+Reseller Compliance: 3768
+Reseller Credit: 3769
+Reseller Rights & Restrictions: 3770
+Reseller Support: 3771
+Reservation of Rights: 3772
+Residual Liability: 3773
+Resource Commitment: 3774
+Resource Constraints in Transition: 3775
+Response Deadline: 3776
+Response Requirement: 3777
+Response to Defamation: 3778
+Responsibility & Performance Obligations: 3779
+Responsibility for Infrastructure: 3780
+Restricted Assignment: 3781
+Restricted Data Sharing: 3782
+Restricted Legal Participation: 3783
+Restricted Licensing Rights: 3784
+Restricted Sublicensing Rights: 3785
+Restricted Usage Rights: 3786
+Restricted Use: 3787
+Restricted Use Liability: 3788
+Restricted Use of IP: 3789
+Restriction of Business Operations: 3790
+Restriction on Additional Terms: 3791
+Restriction on Agreements: 3792
+Restriction on Asset Transfer: 3793
+Restriction on Assignability: 3794
+Restriction on Assignment: 3795
+Restriction on Business Activities: 3796
+Restriction on Business Operations: 3797
+Restriction on Business Practices: 3798
+Restriction on Business Transfer: 3799
+Restriction on Conduct: 3800
+Restriction on Corporate Actions: 3801
+Restriction on Damages Recovery: 3802
+Restriction on Direct Dealings: 3803
+Restriction on Innovation: 3804
+Restriction on Legal Action: 3805
+Restriction on Legal Challenges: 3806
+Restriction on Manufacturing: 3807
+Restriction on Negotiations: 3808
+Restriction on Sublicensing: 3809
+Restriction on Third-Party Business Activities: 3810
+Restriction on Use: 3811
+Restrictions on Assignability: 3812
+Restrictions on Business Transactions: 3813
+Restrictions on Content Rights: 3814
+Restrictions on Development: 3815
+Restrictions on Patent Rights Transfer: 3816
+Restrictions on Use: 3817
+Restrictive: 3818
+Restrictive Assignability: 3819
+Restrictive Assignment: 3820
+Restrictive Assignment Clause: 3821
+Restrictive Assignments: 3822
+Restrictive Business Obligation: 3823
+Restrictive Business Operations: 3824
+Restrictive Business Practice: 3825
+Restrictive Business Practices: 3826
+Restrictive Business Terms: 3827
+Restrictive Covenant: 3828
+Restrictive Covenants: 3829
+Restrictive Covenants & Non-Compete: 3830
+Restrictive Covenants (Non-Compete): 3831
+Restrictive Licensing: 3832
+Restrictive Marketing Rights: 3833
+Restrictive Partner Obligation: 3834
+Restrictive Trade: 3835
+Restrictive Trade Practices: 3836
+Restrictive Use: 3837
+Retail Engagement: 3838
+Retained IP Rights: 3839
+Retained Rights: 3840
+Retention: 3841
+Retention Policy: 3842
+Retention and Review of Financial Records: 3843
+Return & Repair: 3844
+Return & Replacement Policy: 3845
+Return Obligation: 3846
+Return Policy Compliance: 3847
+Return Policy Restriction: 3848
+Return of Materials: 3849
+Returns & Warranty Management: 3850
+Revenue: 3851
+Revenue & Financial: 3852
+Revenue Adjustment: 3853
+Revenue Allocation: 3854
+Revenue Allocation Ambiguity: 3855
+Revenue Allocation Limitation: 3856
+Revenue Assurance: 3857
+Revenue Benchmarking: 3858
+Revenue Calculation: 3859
+Revenue Calculation Ambiguity: 3860
+Revenue Cap: 3861
+Revenue Commitment: 3862
+Revenue Condition: 3863
+Revenue Continuation Obligation: 3864
+Revenue Deduction: 3865
+Revenue Definition: 3866
+Revenue Definition Ambiguity: 3867
+Revenue Dependence: 3868
+Revenue Dependency: 3869
+Revenue Distribution: 3870
+Revenue Distribution Terms: 3871
+Revenue Exclusions: 3872
+Revenue Guarantee: 3873
+Revenue Impact: 3874
+Revenue Inclusions: 3875
+Revenue Limitation: 3876
+Revenue Lock-in: 3877
+Revenue Monitoring Obligation: 3878
+Revenue Obligation: 3879
+Revenue Protection: 3880
+Revenue Recognition: 3881
+Revenue Reduction: 3882
+Revenue Restriction: 3883
+Revenue Rights: 3884
+Revenue Sharing: 3885
+Revenue Sharing & Exclusivity: 3886
+Revenue Sharing & Licensing: 3887
+Revenue Sharing After Termination: 3888
+Revenue Sharing Obligation: 3889
+Revenue Sharing Obligations: 3890
+Revenue Sharing and Payment Obligations: 3891
+Revenue Split Dependency: 3892
+Revenue Threshold: 3893
+Revenue Uncertainty: 3894
+Revenue Verification: 3895
+Revenue-Based Fee Allocation: 3896
+Revenue-Based Payment: 3897
+Revenue-Sharing Financial Obligation: 3898
+Revenue-Sharing Structure: 3899
+Reverse Engineering: 3900
+Revocation Restriction: 3901
+Right of First Negotiation: 3902
+Right of First Offer: 3903
+Right of First Refusal: 3904
+Right of First Refusal (ROFR): 3905
+Right of First Refusal Obligation: 3906
+Right of Refusal: 3907
+Right to Defense: 3908
+Rights: 3909
+Rights & Affiliates: 3910
+Rights Transfer: 3911
+Rigid Penalty Structure: 3912
+Rigid Product Definition: 3913
+Risk Allocation: 3914
+Risk Allocation Agreement: 3915
+Risk Allocation Clause: 3916
+Risk Allocation Limitation: 3917
+Risk Allocation Restriction: 3918
+Risk Allocation and Legal Exposure: 3919
+Risk Coverage: 3920
+Risk Exposure Unclear: 3921
+Risk Limitation: 3922
+Risk Management: 3923
+Risk Mitigation: 3924
+Risk Protection: 3925
+Risk Sharing: 3926
+Risk Transfer: 3927
+Risk Transfer Deficiency: 3928
+Risk of Contract Breach: 3929
+Risk of Defective Deliverables: 3930
+Risk of Financial Loss: 3931
+Risk of Misrepresentation: 3932
+Risk of No Warranty Protection: 3933
+Risk of Uncompensated Loss: 3934
+Risk of Undervalued Sales: 3935
+Risk of Undisclosed Agreements: 3936
+Risk of Unfair Legal Costs: 3937
+Risk of Unrecoverable Damages: 3938
+Risk of Unrecoverable Losses: 3939
+Risk of Unsuccessful Remarketing: 3940
+Role Clarity: 3941
+Royalties: 3942
+Royalties & Commercialization: 3943
+Royalty Adjustment Conditions: 3944
+Royalty Compensation: 3945
+Royalty Duration: 3946
+Royalty Obligation: 3947
+Royalty Obligations: 3948
+Royalty Payment: 3949
+Royalty Payment Clause: 3950
+Royalty Payment Obligation: 3951
+Royalty Payment Obligations: 3952
+Royalty Payments: 3953
+Royalty Structure: 3954
+Royalty Term: 3955
+Royalty Term Limitation: 3956
+Royalty Verification: 3957
+Royalty and Market Competition: 3958
+Royalty-Free Licensing: 3959
+Safety & Compliance: 3960
+Safety & Compliance Obligation: 3961
+Safety and Indemnity: 3962
+Sale Restrictions: 3963
+Sales & Competition: 3964
+Sales & Distribution: 3965
+Sales & Distribution Restriction: 3966
+Sales Collaboration: 3967
+Sales Commission: 3968
+Sales Continuity: 3969
+Sales Exception: 3970
+Sales Flexibility: 3971
+Sales Force Obligation: 3972
+Sales Force Requirement: 3973
+Sales Obligation: 3974
+Sales Performance: 3975
+Sales Performance Obligation: 3976
+Sales Permission: 3977
+Sales Planning: 3978
+Sales Restriction: 3979
+Sales and Distribution Restriction: 3980
+Sample Disposal Obligation: 3981
+Scheduling Flexibility: 3982
+Scope Ambiguity: 3983
+Scope Creep: 3984
+Scope Creep & Data Use: 3985
+Scope Expansion: 3986
+Scope Limitation: 3987
+Scope of License: 3988
+Scope of Limitation: 3989
+Scope of Obligation: 3990
+Scope of Restriction: 3991
+Scope of Rights: 3992
+Scope of Services and Obligation: 3993
+Scope of Use: 3994
+Scope of Use Restriction: 3995
+Scrap Management: 3996
+Seating Benefits: 3997
+Secondary Employment Restriction: 3998
+Securities Compliance: 3999
+Securities Handling: 4000
+Securities Law Compliance: 4001
+Securities Offering: 4002
+Securities Regulation: 4003
+Securities Regulation Compliance: 4004
+Security: 4005
+Security & Data Integrity: 4006
+Security & Privacy: 4007
+Security & Reliability: 4008
+Security Interest & Assignment: 4009
+Security Obligation: 4010
+Security Requirement: 4011
+Selective Allocation: 4012
+Selective Disclosure: 4013
+Selective Liability: 4014
+Self-Insurance: 4015
+Self-Insurance Option: 4016
+Self-Reliance: 4017
+Seller Liability: 4018
+Service Access: 4019
+Service Agreement: 4020
+Service Availability: 4021
+Service Charge: 4022
+Service Charges: 4023
+Service Commitment: 4024
+Service Continuation: 4025
+Service Continuity: 4026
+Service Contract Impact: 4027
+Service Delivery: 4028
+Service Discontinuation: 4029
+Service Disruption: 4030
+Service Duration: 4031
+Service Exclusions: 4032
+Service Fees: 4033
+Service Level: 4034
+Service Level Agreement: 4035
+Service Level Agreement (SLA): 4036
+Service Level Commitment: 4037
+Service Level Commitments: 4038
+Service Level Obligation: 4039
+Service Liability: 4040
+Service Liability Limitation: 4041
+Service Limitation: 4042
+Service Limitations: 4043
+Service Obligation: 4044
+Service Obligations: 4045
+Service Offering: 4046
+Service Performance: 4047
+Service Promotion Restrictions: 4048
+Service Provision: 4049
+Service Quality: 4050
+Service Quality Assurance: 4051
+Service Reliability: 4052
+Service Restriction: 4053
+Service Scope Limitation: 4054
+Service Stability: 4055
+Service Suitability: 4056
+Service Termination: 4057
+Service and Promotional Obligation: 4058
+Service/Product Warranty: 4059
+Settlement: 4060
+Settlement Approval: 4061
+Settlement Control: 4062
+Settlement Limitation: 4063
+Settlement Negotiation: 4064
+Settlement Restriction: 4065
+Settlement Restrictions: 4066
+Settlement Rights: 4067
+Settlement Terms: 4068
+Severability: 4069
+Severe Monetary Recovery Restriction: 4070
+Share Dilution: 4071
+Share Registration: 4072
+Share Transfer: 4073
+Shared Liability: 4074
+Shareholder Control: 4075
+Shareholder Rights: 4076
+Shelf Life Commitment: 4077
+Shelf Life Guarantee: 4078
+Shipment Defect Reporting: 4079
+Short Notice Audit: 4080
+Short Notice Period: 4081
+Short Notice Period for Termination: 4082
+Short Termination Notice Period: 4083
+Short Warranty Period: 4084
+Short-Term Usage Rights: 4085
+Signature Compliance: 4086
+Significant Equity Payout: 4087
+Significant limitation of liability: 4088
+Silent Rejection: 4089
+Site Approval: 4090
+Site Liability: 4091
+Site Selection: 4092
+Software Access: 4093
+Software Compliance: 4094
+Software Demonstration: 4095
+Software Distribution: 4096
+Software Escrow & IP Protection: 4097
+Software Escrow Obligations: 4098
+Software IP Ownership: 4099
+Software Installation: 4100
+Software Integration: 4101
+Software Liability: 4102
+Software License Restriction: 4103
+Software Licensing: 4104
+Software Licensing & IP: 4105
+Software Maintenance: 4106
+Software Maintenance Obligation: 4107
+Software Performance: 4108
+Software Quality: 4109
+Software Reuse: 4110
+Software Substitution: 4111
+Software Support: 4112
+Software Updates: 4113
+Software Usage Rights: 4114
+Software Use Limitations: 4115
+Solicitation Restrictions: 4116
+Source Code: 4117
+Source Code Escrow: 4118
+Source Code Modification: 4119
+Source Code Usage: 4120
+Source Code Usage Restrictions: 4121
+Source Code Use: 4122
+Space Allocation: 4123
+Special Audit Considerations: 4124
+Specific Liability: 4125
+Specificity of Competitors: 4126
+Sponsor Obligation: 4127
+Sponsorship & Payment Obligations: 4128
+Sponsorship & Termination Rights: 4129
+Sponsorship Agreement: 4130
+Sponsorship Compliance: 4131
+Sponsorship Exclusivity: 4132
+Sponsorship Opportunity: 4133
+Sponsorship Restriction: 4134
+Sponsorship Restrictions: 4135
+Sponsorship Rights: 4136
+Sponsorship Terms: 4137
+Sponsorship Timeline: 4138
+Sponsorship, Advertising: 4139
+Sponsorship, Recognition: 4140
+Stakeholder Protection: 4141
+Standard Assignment Clause: 4142
+Standard Business Obligation: 4143
+Standard Business Practice: 4144
+Standard Commission: 4145
+Standard Compliance: 4146
+Standard Compliance Obligation: 4147
+Standard Contract: 4148
+Standard Contract Duration: 4149
+Standard Contract Term: 4150
+Standard Corporate Structure Flexibility: 4151
+Standard Data Ownership Clause: 4152
+Standard Equipment Lease Protection: 4153
+Standard Governing Law Clause: 4154
+Standard Indemnification: 4155
+Standard Indemnification Scope: 4156
+Standard Inspection Clause: 4157
+Standard Insurance Requirement: 4158
+Standard Legal Protection: 4159
+Standard Liability Allocation: 4160
+Standard Merger Clause: 4161
+Standard Modification Clause: 4162
+Standard Termination Clause: 4163
+Standard Transfer Restriction: 4164
+Standard Warranty: 4165
+Standard jurisdiction risk: 4166
+Statute of Limitations: 4167
+Statutory Damages: 4168
+Stock Compensation: 4169
+Stock Conversion: 4170
+Stock Options & Termination: 4171
+Stock Purchase Obligation: 4172
+Stock Transfer Restriction: 4173
+Stock Valuation: 4174
+Storage and Handling Obligations: 4175
+Strategic: 4176
+Strategic Control: 4177
+Strategic Program Advertising Placement: 4178
+Strategic Program Limitation: 4179
+Strict Assignment Nullification: 4180
+Strict Assignment Restrictions: 4181
+Strict Compliance Burden: 4182
+Strict Compliance Requirement: 4183
+Strict Deadline: 4184
+Strict IP Protection Clause: 4185
+Strict Liability Limitation: 4186
+Strict Liability for Defects: 4187
+Strict Market Restriction: 4188
+Strict Notice Requirement: 4189
+Strict Notification Requirement: 4190
+Strict Timeline Requirement: 4191
+Structural Ambiguity: 4192
+Structured Payments: 4193
+Sub-Licensing: 4194
+Sub-Licensing Limitation: 4195
+Sub-Licensing Rights: 4196
+Sub-licensing: 4197
+Subcontracting: 4198
+Subcontracting & Approval: 4199
+Subcontracting Control: 4200
+Subcontracting Limitation: 4201
+Subcontracting Restriction: 4202
+Subcontracting Restrictions: 4203
+Subcontractor Compliance: 4204
+Subjective Compensation: 4205
+Subjective Determination of Competitor: 4206
+Subjective Termination: 4207
+Subjectivity: 4208
+Subjectivity in Termination: 4209
+Sublicense Grant: 4210
+Sublicensee Responsibility: 4211
+Sublicensing: 4212
+Sublicensing & Subcontracting: 4213
+Sublicensing Exception: 4214
+Sublicensing Flexibility: 4215
+Sublicensing Restriction: 4216
+Sublicensing Restrictions: 4217
+Sublicensing Rights: 4218
+Sublicensing Terms: 4219
+Sublicensings: 4220
+Subsidiary License: 4221
+Substance Use Policy: 4222
+Succession & Mergers: 4223
+Successor Assignment: 4224
+Successor Enforcement: 4225
+Successor Liability: 4226
+Successor Obligation: 4227
+Successors & Assigns: 4228
+Superseding Prior Agreements: 4229
+Supplier Accountability: 4230
+Supplier Compliance: 4231
+Supplier Dependency: 4232
+Supplier Discretion: 4233
+Supplier Evaluation: 4234
+Supplier Exclusivity: 4235
+Supplier Flexibility: 4236
+Supplier Restrictions: 4237
+Supplier Support: 4238
+Supply & Distribution Obligations: 4239
+Supply Agreement: 4240
+Supply Agreement Compliance: 4241
+Supply Allocation: 4242
+Supply Capacity: 4243
+Supply Chain: 4244
+Supply Chain & Business Continuity: 4245
+Supply Chain & Inventory: 4246
+Supply Chain & Liquidated Damages: 4247
+Supply Chain Continuity: 4248
+Supply Chain Dependency: 4249
+Supply Chain Flexibility: 4250
+Supply Chain Management: 4251
+Supply Chain Obligations: 4252
+Supply Chain Restriction: 4253
+Supply Chain Rights: 4254
+Supply Chain Stability: 4255
+Supply Commitment: 4256
+Supply Contingency: 4257
+Supply Continuity: 4258
+Supply Control: 4259
+Supply Disruption: 4260
+Supply Failure: 4261
+Supply Obligation: 4262
+Supply Restriction: 4263
+Support & Maintenance Obligation: 4264
+Support Limitation: 4265
+Support Obligation: 4266
+Support Obligations: 4267
+Support Services: 4268
+Support Termination: 4269
+Surveillance & Monitoring: 4270
+Survivability: 4271
+Survival: 4272
+Survival Clause: 4273
+Survival of Key Obligations: 4274
+Survival of Limitations: 4275
+Survival of Obligations: 4276
+Survival of Terms: 4277
+System Integration: 4278
+System Reliability: 4279
+Talent Obligations: 4280
+Talent Retention: 4281
+Tax: 4282
+Tax Compliance: 4283
+Tax Liability: 4284
+Taxation: 4285
+Taxes: 4286
+Technical: 4287
+Technical Compatibility: 4288
+Technical Complexity: 4289
+Technical Compliance: 4290
+Technical Integration: 4291
+Technical Responsibilities: 4292
+Technical Specification: 4293
+Technical Support: 4294
+Technology: 4295
+Technology Acceptance: 4296
+Technology Licensing: 4297
+Technology Lock-In: 4298
+Technology Restriction: 4299
+Technology Rights: 4300
+Technology Sharing: 4301
+Technology Transfer: 4302
+Technology Usage Restriction: 4303
+Technology Use Limitations: 4304
+Technology-Relateds: 4305
+Temperature Control: 4306
+Temporary License Grant: 4307
+Term & Renewal: 4308
+Term and Duration: 4309
+Term and Renewal: 4310
+Termination: 4311
+Termination & Bankruptcy: 4312
+Termination & Change of Control: 4313
+Termination & Compensation: 4314
+Termination & Compliance: 4315
+Termination & Duration: 4316
+Termination & Exclusivity: 4317
+Termination & Exit Strategy: 4318
+Termination & Financial Obligation: 4319
+Termination & IP Ownership: 4320
+Termination & IP Rights: 4321
+Termination & Insolvency: 4322
+Termination & Inventory Sell-Off: 4323
+Termination & License Revocation: 4324
+Termination & Morality Clause: 4325
+Termination & Notice: 4326
+Termination & Notice Obligations: 4327
+Termination & Ownership Change: 4328
+Termination & Payment Adjustment: 4329
+Termination & Penalties: 4330
+Termination & Penalty: 4331
+Termination & Record Retention Obligations: 4332
+Termination & Refund: 4333
+Termination & Renewal: 4334
+Termination & Reputation: 4335
+Termination & Study Continuity: 4336
+Termination & Transfer of Rights: 4337
+Termination & Transition: 4338
+Termination & Transition Obligations: 4339
+Termination / Control: 4340
+Termination Assistance: 4341
+Termination Assistance Obligation: 4342
+Termination Clause: 4343
+Termination Clause Ambiguity: 4344
+Termination Clause Dependency: 4345
+Termination Compensation: 4346
+Termination Condition: 4347
+Termination Conditions: 4348
+Termination Consequences: 4349
+Termination Contingency: 4350
+Termination Cost: 4351
+Termination Delay: 4352
+Termination Dispute: 4353
+Termination Due to Breach: 4354
+Termination Due to Competitor Involvement: 4355
+Termination Fee Obligation: 4356
+Termination Fees: 4357
+Termination Financial Obligation: 4358
+Termination Flexibility: 4359
+Termination Liability: 4360
+Termination Notice: 4361
+Termination Notice Requirement: 4362
+Termination Notification Process: 4363
+Termination Obligation: 4364
+Termination Obligations: 4365
+Termination Penalty: 4366
+Termination Procedure: 4367
+Termination Requirement: 4368
+Termination Restriction: 4369
+Termination Restrictions: 4370
+Termination Right: 4371
+Termination Rights: 4372
+Termination Rights & Obligations: 4373
+Termination Terms: 4374
+Termination Timing Flexibility: 4375
+Termination Triggers: 4376
+Termination Upon Change of Control: 4377
+Termination Window Limitation: 4378
+Termination and Change of Control: 4379
+Termination by Consultant: 4380
+Termination for Breach: 4381
+Termination for Cause: 4382
+Termination for Convenience: 4383
+Termination-Related Liability Limitation: 4384
+Termination/Intellectual Property: 4385
+Terms & Conditions: 4386
+Territorial Restriction: 4387
+Territorial Restrictions: 4388
+Territorial Rights: 4389
+Territory Restrictions: 4390
+Testing & Screening Rights: 4391
+Testing & Validation Rights: 4392
+Testing and Acceptance: 4393
+Third Party Rights: 4394
+Third-Party: 4395
+Third-Party Access: 4396
+Third-Party Access Control: 4397
+Third-Party Access Restriction: 4398
+Third-Party Accesss: 4399
+Third-Party Agreement: 4400
+Third-Party Agreement Assignment: 4401
+Third-Party Agreement Liability: 4402
+Third-Party Agreements: 4403
+Third-Party Approval: 4404
+Third-Party Assignment: 4405
+Third-Party Assistance Restriction: 4406
+Third-Party Audit: 4407
+Third-Party Audit Rights: 4408
+Third-Party Beneficiaries: 4409
+Third-Party Beneficiary: 4410
+Third-Party Claims: 4411
+Third-Party Claims Exclusion: 4412
+Third-Party Competition and Exclusivity: 4413
+Third-Party Compliance: 4414
+Third-Party Contact: 4415
+Third-Party Control: 4416
+Third-Party Coverage: 4417
+Third-Party Data Exposure: 4418
+Third-Party Data Sharing: 4419
+Third-Party Dependencies: 4420
+Third-Party Dependency: 4421
+Third-Party Disclosure: 4422
+Third-Party Distribution: 4423
+Third-Party Enforcement: 4424
+Third-Party Engagement: 4425
+Third-Party Fee Obligation: 4426
+Third-Party Financial: 4427
+Third-Party IP: 4428
+Third-Party IP Assignment: 4429
+Third-Party Inclusion: 4430
+Third-Party Indemnification: 4431
+Third-Party Insurance Obligation: 4432
+Third-Party Integration: 4433
+Third-Party Intellectual Property: 4434
+Third-Party Involvement: 4435
+Third-Party Legal Claims: 4436
+Third-Party Legal Obligation: 4437
+Third-Party Liability: 4438
+Third-Party Liability Exemption: 4439
+Third-Party Licensing: 4440
+Third-Party Licensing Restrictions: 4441
+Third-Party Modification: 4442
+Third-Party Negotiation: 4443
+Third-Party Obligation: 4444
+Third-Party Obligations: 4445
+Third-Party Promotional Rights: 4446
+Third-Party Protection: 4447
+Third-Party Reliance: 4448
+Third-Party Representation: 4449
+Third-Party Responsibility: 4450
+Third-Party Restriction: 4451
+Third-Party Restrictions: 4452
+Third-Party Rights: 4453
+Third-Party Rights Limitation: 4454
+Third-Party Rights Management: 4455
+Third-Party Rights and Obligations: 4456
+Third-Party Software Compliance: 4457
+Third-Party Software Dependency: 4458
+Third-Party Sublicensing: 4459
+Third-Party Tax Indemnification: 4460
+Third-Party Transfer Restriction: 4461
+Third-Party Usage Restriction: 4462
+Third-Party Vendor: 4463
+Third-Party Warranty: 4464
+Third-Party Warranty Transfer: 4465
+Third-Partys: 4466
+Threshold for Additional Verification: 4467
+Time Commitment Limitation: 4468
+Time Constraint: 4469
+Time Constraint on Transactions: 4470
+Time Restriction: 4471
+Time-Based Liability Cap: 4472
+Time-Bound Limitation: 4473
+Time-Bound Post-Term Obligations: 4474
+Time-Limited Indemnity: 4475
+Time-Limited License: 4476
+Time-Limited Obligation: 4477
+Time-Limited Rights: 4478
+Time-Limited Sublicensing: 4479
+Time-Limited Transition Support: 4480
+Time-Sensitive Decision: 4481
+Time-Sensitive Obligation: 4482
+Time-bound Rights: 4483
+Timeframe: 4484
+Timeline: 4485
+Timeline Compliance: 4486
+Timely Defect Reporting: 4487
+Timely Execution: 4488
+Timing Requirement: 4489
+Timing Restriction: 4490
+Title: 4491
+Title & Lien Warranty: 4492
+Tort Claim Waiver: 4493
+Total Warranty Disclaimer: 4494
+Trade Practice Warranty Exclusion: 4495
+Trade Restrictions: 4496
+Trade Secret Protection: 4497
+Trade Secrets Protection: 4498
+Trademark: 4499
+Trademark & Brand Protection: 4500
+Trademark & Branding: 4501
+Trademark & Copyright Assignment: 4502
+Trademark & Licensing: 4503
+Trademark Assignment: 4504
+Trademark Compliance: 4505
+Trademark Control: 4506
+Trademark Infringement: 4507
+Trademark Infringement Prevention: 4508
+Trademark License: 4509
+Trademark Licensing: 4510
+Trademark Limitation: 4511
+Trademark Misuse: 4512
+Trademark Ownership: 4513
+Trademark Ownership Restriction: 4514
+Trademark Protection: 4515
+Trademark Protection Restriction: 4516
+Trademark Recognition: 4517
+Trademark Reservation: 4518
+Trademark Restriction: 4519
+Trademark Restrictions: 4520
+Trademark Rights: 4521
+Trademark Rights Limitation: 4522
+Trademark Usage: 4523
+Trademark Usage Restriction: 4524
+Trademark Usage Rights: 4525
+Trademark Use Restrictions: 4526
+Trademark Use Transfer: 4527
+Trademark Violation & Agreement Termination: 4528
+Trademark and Branding: 4529
+Trademark and Business Name Restriction: 4530
+Trademark and Copyright Ownership: 4531
+Trademark and Copyright Restriction: 4532
+Trademark and Copyright Usage Restriction: 4533
+Trademark and IP: 4534
+Trademark and Patent: 4535
+Training & Support: 4536
+Training Flexibility: 4537
+Training Obligation: 4538
+Training Obligations: 4539
+Training Requirement: 4540
+Training and Compliance: 4541
+Training and Support: 4542
+Transaction: 4543
+Transaction Continuity: 4544
+Transaction Control: 4545
+Transaction Disclosure: 4546
+Transaction Fee: 4547
+Transaction Restrictions: 4548
+Transaction Timeline: 4549
+Transactional: 4550
+Transfer & Approval: 4551
+Transfer & Ownership Restrictions: 4552
+Transfer Conditions: 4553
+Transfer Control: 4554
+Transfer Documentation Requirement: 4555
+Transfer Flexibility: 4556
+Transfer Obligation: 4557
+Transfer Obligations: 4558
+Transfer Restriction: 4559
+Transfer Restrictions: 4560
+Transfer Restrictions / Business Continuity: 4561
+Transfer Rights: 4562
+Transfer and Assignment: 4563
+Transfer of Business: 4564
+Transfer of Obligations: 4565
+Transfer of Ownership: 4566
+Transfer of Rights: 4567
+Transfer to Unsuitable Owners: 4568
+Transferability: 4569
+Transferability Exception: 4570
+Transferability Limitation: 4571
+Transferability Limitations: 4572
+Transferability Restriction: 4573
+Transferability Restrictions: 4574
+Transition: 4575
+Transition & Continuity: 4576
+Transition & Exit: 4577
+Transition Assistance: 4578
+Transition Clauses: 4579
+Transition Compliance: 4580
+Transition Negotiation Considerations: 4581
+Transition Obligation: 4582
+Transition Obligations: 4583
+Transition Service Obligation: 4584
+Transition Services: 4585
+Transition Support: 4586
+Transition Support Obligation: 4587
+Transition Uncertainty: 4588
+Transparency: 4589
+Transparency & Access Rights: 4590
+Transparency & Audit: 4591
+Transparency & Confidentiality: 4592
+Transparency Obligation: 4593
+Transparency Requirement: 4594
+Transportation: 4595
+Transportation & Logistics: 4596
+Transporter Rights: 4597
+Umbrella Liability: 4598
+Unauthorized Assignment: 4599
+Unauthorized Commitments: 4600
+Unauthorized Distribution: 4601
+Unauthorized Licensing: 4602
+Unauthorized Patent Filing Consequences: 4603
+Unauthorized Settlement: 4604
+Unauthorized Transfer: 4605
+Unauthorized Usage: 4606
+Unauthorized Usage Restriction: 4607
+Unauthorized Use Liability: 4608
+Unbalanced Financial Benefit from IP: 4609
+Uncapped Liability: 4610
+Uncertain Cost Escalation: 4611
+Uncertain Equity Valuation: 4612
+Uncertain Future Obligation: 4613
+Uncertain Future Terms: 4614
+Uncertain Outcome Obligation: 4615
+Uncertain Renewal Terms: 4616
+Uncertain Termination: 4617
+Uncertain Transaction Terms: 4618
+Uncertain Transition: 4619
+Uncertainty: 4620
+Uncertainty in Business Operations: 4621
+Uncertainty in Cost-Sharing: 4622
+Uncertainty in Ownership Rights: 4623
+Uncertainty in Time Extensions: 4624
+Unclear Adjustments Clause: 4625
+Unclear Commitment Terms: 4626
+Unclear Dispute Forum: 4627
+Unclear Execution Timeline: 4628
+Unclear Financial Obligations: 4629
+Unclear IP Commercialization Rights: 4630
+Unclear IP Ownership Timeline: 4631
+Unclear Licensing Duration: 4632
+Unclear Obligation: 4633
+Unclear Obligations: 4634
+Unclear Obligations Upon Termination: 4635
+Unclear Performance Benchmark Consequences: 4636
+Unclear Performance Obligations: 4637
+Unclear Revenue Calculation Method: 4638
+Unclear Scope of Exclusivity: 4639
+Unclear Sublicensing Rights: 4640
+Unclear Termination Events: 4641
+Unclear Transfer Terms: 4642
+Unclear Vendor Obligations: 4643
+Uncompensated Contributions: 4644
+Uncompensated IP Usage: 4645
+Unconditional Payment Requirement: 4646
+Undefined Commercial Obligation: 4647
+Undefined Compensation Structure: 4648
+Undefined Consequences: 4649
+Undefined Coverage Amount: 4650
+Undefined Coverage Limit: 4651
+Undefined Damage Exposure: 4652
+Undefined Data Expiry: 4653
+Undefined Early Termination Terms: 4654
+Undefined Enforcement Period: 4655
+Undefined Exception: 4656
+Undefined Exemptions: 4657
+Undefined Financial Exposure: 4658
+Undefined Financial Obligation: 4659
+Undefined Future Agreement: 4660
+Undefined Liabilities & Potential Disputes: 4661
+Undefined Liability Scope: 4662
+Undefined Patent Scope: 4663
+Undefined Payment Terms: 4664
+Undefined Post-Term Duration: 4665
+Undefined Remedy Process: 4666
+Undefined Reporting Obligations: 4667
+Undefined Termination: 4668
+Undefined Timeline: 4669
+Undefined Usage Limitations: 4670
+Underpayment & Reimbursement: 4671
+Underpayment Penalty: 4672
+Unequal Assignment Terms: 4673
+Unethical Practices: 4674
+Unfair Contract Terms: 4675
+Unfair Enforcement: 4676
+Unfair Liquidated Damages: 4677
+Unfavorable Revenue Obligation: 4678
+Unforeseen Circumstances: 4679
+Unforeseen Events: 4680
+Unilateral Acceptance: 4681
+Unilateral Assignment: 4682
+Unilateral Assignment Right: 4683
+Unilateral Assignment Rights: 4684
+Unilateral Compliance: 4685
+Unilateral Control: 4686
+Unilateral Control Change: 4687
+Unilateral Control Over Agreements: 4688
+Unilateral Control by Company: 4689
+Unilateral Cost Increase: 4690
+Unilateral Decision-Making: 4691
+Unilateral Disposal Rights: 4692
+Unilateral Enforcement Power: 4693
+Unilateral Modification: 4694
+Unilateral Obligations: 4695
+Unilateral Renewal Control: 4696
+Unilateral Renewal Right: 4697
+Unilateral Termination: 4698
+Unilateral Termination Advantage: 4699
+Unilateral Termination Right: 4700
+Unilateral Termination Rights: 4701
+Unilateral Transfer: 4702
+Unilateral Transfer Power: 4703
+Unilateral Transfer of Ownership: 4704
+Unintended Contract Continuation: 4705
+Unknown: 4706
+Unknown Financial Liability: 4707
+Unlimited Data Usage Scope: 4708
+Unlimited Distribution: 4709
+Unlimited Exploitation Rights: 4710
+Unlimited Financial Exposure: 4711
+Unlimited Liability: 4712
+Unlimited Liability Concern: 4713
+Unlimited Liability for Misconduct: 4714
+Unlimited Sublicensing: 4715
+Unlimited Usage: 4716
+Unlimited Usage Rights: 4717
+Unlimited Use: 4718
+Unreasonable Post-Termination Restriction: 4719
+Unregulated Product Disposal: 4720
+Unreliable Future Business Plans: 4721
+Unrestricted Commercialization Rights: 4722
+Unrestricted Data Access: 4723
+Unrestricted IP Exploitation: 4724
+Unrestricted IP Use: 4725
+Unrestricted Licensing: 4726
+Unrestricted Sublicensing: 4727
+Unrestricted Third-Party Transfers: 4728
+Unrestricted Use: 4729
+Unrestricted Use Disclaimer: 4730
+Unspecified Financial Burden: 4731
+Unspecified Financial Commitment: 4732
+Unspecified Financial Protection: 4733
+Unspecified Liability: 4734
+Unspecified Notice Period: 4735
+Unspecified Payment Deadline: 4736
+Unwritten Intellectual Property Rights: 4737
+Update Obligation: 4738
+Upfront Payment Obligation: 4739
+Usage: 4740
+Usage & Modification Rights: 4741
+Usage Consistency: 4742
+Usage Limitation: 4743
+Usage Restriction: 4744
+Usage Restrictions: 4745
+Usage Rights: 4746
+User Access: 4747
+User Expectation: 4748
+User Experience: 4749
+Valuation: 4750
+Valuation Limitation: 4751
+Valuation of Shares: 4752
+Value Impact on Other Party: 4753
+Variable Compensation: 4754
+Variable Payment Terms: 4755
+Variable Pricing: 4756
+Vehicle Reduction Requirement: 4757
+Vendor Management: 4758
+Vendor Obligation: 4759
+Vendor Qualification: 4760
+Verbal Misrepresentation: 4761
+Video Display Program Advertising: 4762
+Volume: 4763
+Waiver: 4764
+Waiver Limitations: 4765
+Waiver of Claims: 4766
+Waiver of Financial Damages: 4767
+Waiver of Intellectual Property Rights: 4768
+Waiver of Jurisdictional Objections: 4769
+Waiver of Key Legal Protections: 4770
+Waiver of Legal Challenge Rights: 4771
+Waiver of Legal Protections: 4772
+Waiver of Legal Rights: 4773
+Waiver of Liability: 4774
+Waiver of Liability for Damages: 4775
+Waiver of Liability on Termination: 4776
+Waiver of Moral Rights: 4777
+Waiver of Negligence Liability: 4778
+Waiver of Rights: 4779
+Waivers: 4780
+Warranties: 4781
+Warranty: 4782
+Warranty & Compliance: 4783
+Warranty & Disclaimers: 4784
+Warranty & Liabilities: 4785
+Warranty & Liability: 4786
+Warranty & Liability Limitations: 4787
+Warranty & Liability Waiver: 4788
+Warranty & Performance: 4789
+Warranty & Product Liability: 4790
+Warranty & Quality Assurance: 4791
+Warranty & Remedies: 4792
+Warranty & Representation: 4793
+Warranty & Service: 4794
+Warranty & Transfer: 4795
+Warranty Ambiguity: 4796
+Warranty Claim Period: 4797
+Warranty Commencement: 4798
+Warranty Disclaimer: 4799
+Warranty Disclaimers: 4800
+Warranty Enforcement: 4801
+Warranty Enforcement & Financial Liability: 4802
+Warranty Exclusion: 4803
+Warranty Exclusions: 4804
+Warranty Extension: 4805
+Warranty Liability: 4806
+Warranty Limitation: 4807
+Warranty Limitations: 4808
+Warranty Modification: 4809
+Warranty Obligation: 4810
+Warranty Obligations: 4811
+Warranty Period: 4812
+Warranty Terms: 4813
+Warranty and Liability Disclaimer: 4814
+Warranty and Negligence: 4815
+Warranty and Remedies: 4816
+Warranty and Service Obligations: 4817
+Warranty on Performance: 4818
+Warranty, Limitation: 4819
+Water Quality Standards: 4820
+Well Production Criteria: 4821
+Willful Misconduct: 4822
+Work Definition: 4823
+Work Product Licensing: 4824
+Work Product Ownership: 4825
+Work for Hire: 4826
+Work for Hire Obligations: 4827
+Work-for-Hire Classification: 4828
+Work-for-Hire Obligation: 4829
+Workers' Compensation: 4830
+Workers' Compensation Insurance: 4831
+Workforce Commitment: 4832
+Workforce Stability: 4833
+Workplace Safety Liability: 4834
+Xencor Retains Partial Control: 4835
+Year-One Termination Penalty: 4836
+financial risk.: 4837
+liability unforeseen risks: 4838
+warranty disclaimer risk: 4839
+Some weights of BertForMultiTaskClassification were not initialized from the model checkpoint at bert-large-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'classifier_category.bias', 'classifier_category.weight', 'classifier_level.bias', 'classifier_level.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForMultiTaskClassification were not initialized from the model checkpoint at bert-large-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'classifier_category.bias', 'classifier_category.weight', 'classifier_level.bias', 'classifier_level.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/transformers/optimization.py:640: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Epoch 1/30, Loss: 6.9092878883361815
+Epoch 2/30, Loss: 5.736578255462646
+Epoch 3/30, Loss: 5.180396793746948
+Epoch 4/30, Loss: 4.703725804901123
+Epoch 5/30, Loss: 4.298424945831298
+Epoch 6/30, Loss: 3.9555477401733397
+Epoch 7/30, Loss: 3.6648643796920775
+Epoch 8/30, Loss: 3.4207340866088867
+Epoch 9/30, Loss: 3.195027809715271
+Epoch 10/30, Loss: 2.999585663604736
+Epoch 11/30, Loss: 2.8247326095581053
+Epoch 12/30, Loss: 2.666770297241211
+Epoch 13/30, Loss: 2.5238276844978333
+Epoch 14/30, Loss: 2.3931242570877074
+Epoch 15/30, Loss: 2.2794511262893677
+Epoch 16/30, Loss: 2.169349116706848
+Epoch 17/30, Loss: 2.0685010910511017
+Epoch 18/30, Loss: 1.97976525888443
+Epoch 19/30, Loss: 1.898611897277832
+Epoch 20/30, Loss: 1.824282714176178
+Epoch 21/30, Loss: 1.760025105857849
+Epoch 22/30, Loss: 1.6961099840164184
+Epoch 23/30, Loss: 1.6451846130847931
+Epoch 24/30, Loss: 1.597403400993347
+Epoch 25/30, Loss: 1.5582979735374451
+Epoch 26/30, Loss: 1.5230095885276795
+Epoch 27/30, Loss: 1.4903473375320435
+Epoch 28/30, Loss: 1.4654983345985413
+Epoch 29/30, Loss: 1.4457485375404358
+Epoch 30/30, Loss: 1.4346405947208405
+Model saved successfully.
+Model saved successfully.
+Model loaded successfully.
+
+Predicted Risk Level: High
+Predicted Risk Category: Confidentiality
