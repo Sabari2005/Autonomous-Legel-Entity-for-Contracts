@@ -1,0 +1,3 @@
+uri = "NEO4J DATABASE LINK"
+username = "YOUR NEO4J USERNAME"
+password = "YOUR NEO4J PASSWORD"

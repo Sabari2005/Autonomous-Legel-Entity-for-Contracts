@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure Form</title>
+  
+</head>
+<body>
+  <form action="/accept" method="post">
+    <input type="text" name="user_input" placeholder="Enter your message" required />
+    
+
+    <div class="g-recaptcha" data-sitekey="YOUR CAPTCHA SITE KEty"></div>
+    
+    <br />
+    <button type="submit">Submit</button>
+  </form>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
