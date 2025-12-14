@@ -184,4 +184,3 @@ When a user uploads a contract for analysis or drafting, the file is securely st
 [Click here to watch the promo video of our project](./assets/alec_promo.mp4)
 
 
-Ai Powered Legal Document Analysis - https://idea.unisys.com/D8109
