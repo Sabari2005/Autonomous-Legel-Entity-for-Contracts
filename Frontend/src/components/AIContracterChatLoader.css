@@ -1,0 +1,30 @@
+.typing-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.typing-bar {
+    height: 12px;
+    border-radius: 10px;
+    width: 40%;
+    background: linear-gradient(270deg, #3e78a1, #ffffff, #3e92a1);
+    background-size: 200% 100%;
+    animation: gradientMove 1.5s ease-in-out infinite;
+}
+
+.typing-bar.short {
+    width: 30%;
+}
+
+/* Animation for background gradient movement */
+@keyframes gradientMove {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: 0% 0;
+    }
+}

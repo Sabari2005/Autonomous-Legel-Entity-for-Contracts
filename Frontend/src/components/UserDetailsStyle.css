@@ -1,0 +1,98 @@
+.UserDetails {
+    position: absolute;
+    margin-top: 40px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: black; */
+    /* padding: 30px; */
+    border-radius: 10px;
+    width: 550px;
+    height:90%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    
+  }
+  
+  .UserDetails form {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    overflow-y: auto;
+    /* background-color: red; */
+  }
+
+  .UserDetails label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap:10px;
+    font-weight: 500;
+    font-size: 14px;
+    color:black;
+  }
+  
+  .UserDetails input {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .UserDetails input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.2);
+  }
+  
+  .UserDetails input::placeholder {
+    color: #999;
+  }
+  .UserDetails button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .UserDetails button:hover {
+    background-color: #218838;
+  }
+  .user-details-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .user-details-popup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  

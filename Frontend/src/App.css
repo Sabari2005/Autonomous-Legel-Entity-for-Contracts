@@ -1,0 +1,6 @@
+.contain{
+  overflow: hidden;
+  position: relative; /* ✅ Ensures it doesn’t affect fixed elements */
+  width: 100%;
+  height: 100%;
+}
